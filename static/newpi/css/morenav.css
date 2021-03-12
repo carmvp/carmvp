@@ -1,0 +1,8 @@
+@charset "utf-8";
+.nav-more{visibility: hidden;opacity:0; height: 0px;float: left;position: absolute;top: 40px;background-color:#F8285C;padding: 10px 0;}
+.header .mainNav .nav .navigation li.last:hover .nav-more{visibility: visible;opacity:1; height:auto;transition: all 0.5s; }
+.header .mainNav .nav .navigation li.last a.morelink{color:#F8285C}.ncinfos{width:204px}
+.header .mainNav .nav .navigation li.last .nav-more a{color:#fff;padding: 1px 0;width: 100%;text-align: center;}
+.header .mainNav .nav .navigation li.last.current a{color:#fff}
+.index_top_num{position: absolute;margin-top: -8px;width:auto;height: 18px;line-height: 18px;background:#F8285C;border-radius: 15px;font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #FFFFFF;font-style: normal;text-align: center;font-weight: 100;  padding: 0 5px;}
+.index_top_num.quan{background:#0080FF;color:#fff}
