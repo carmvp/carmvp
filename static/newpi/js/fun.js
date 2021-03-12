@@ -1,0 +1,1 @@
+function CloseNLRAF(a){if(a){var date=new Date();date.setTime(date.getTime()+30*24*60*60*1000);$.cookie("NLRAF","true",{path:"/",expires:date})}else{var date=new Date();date.setTime(date.getTime()+1*1000);$.cookie("NLRAF","true",{path:"/",expires:date})}$("#afp").slideUp()}function echo(stringA,stringB){var hello="你好";alert("hello world")};
