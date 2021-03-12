@@ -1,0 +1,402 @@
+*{margin:0;padding:0}
+.clearfix:after,.col-extra:after,.col-sub:after,.layout:after,.main-wrap:after,.tb-module:after{content:'.';display:block;height:0;line-height:0;clear:both;visibility:hidden}
+.clearfix,.col-extra,.col-sub,.layout,.main-wrap,.tb-module{*zoom:1}
+.col-extra,.col-main,.col-sub{float:left;min-height:1px}
+.layout{width:1190px;margin-left:auto;margin-right:auto}
+.npage{ height:650px;}
+.grid-0,.grid-0 .col-main,.grid-1 .col-main,.grid-2 .col-main{width:100%}
+.grid-2 .col-main .main-wrap{margin-left:240px}
+.grid-2 .col-sub{width:240px;margin-left:-100%}
+.grid-3 .col-main{width:100%}
+.grid-3 .col-main .main-wrap{margin-left:950px}
+.grid-3 .col-sub{width:950px;margin-left:-100%}
+.grid-4 .col-main{width:100%}
+.grid-4 .col-main .main-wrap{margin-left:170px;margin-right:470px}
+.grid-4 .col-sub{width:170px;margin-left:-100%}
+.grid-4 .col-extra{width:470px;margin-left:-470px}
+.layout-grid-0{width:100%}
+.site-nav .site-nav-bd{width:1190px!important}
+.itemlist-first-screen .module-wrap {
+	position:relative;
+	font-family:"Microsoft YaHei","Hiragino Sans GB";
+}
+.itemlist-first-screen .module-wrap .J_conf {
+	display:none;
+}
+.itemlist-first-screen .module-wrap .slide {
+	position:relative;
+	height:340px;
+	width:100%;
+	overflow:hidden;
+}
+.itemlist-first-screen .module-wrap .slide .tab-content {
+	height:340px;
+	width:100%;
+}
+.itemlist-first-screen .module-wrap .slide .tab-pannel {
+	height:340px;
+	width:100%;
+}
+.itemlist-first-screen .module-wrap .slide .tab-pannel a {
+	display:block;
+	position:relative;
+	height:100%;
+	width:100%;
+	background:url(about:blank);
+}
+.itemlist-first-screen .module-wrap .slide .tab-nav {
+	position:absolute;
+	left:50%;
+	margin-left:-20px;
+	bottom:15px;
+	z-index:10;
+}
+.itemlist-first-screen .module-wrap .slide .tab-nav li {
+	float:left;
+	display:inline;
+	margin:0 5px;
+}
+.itemlist-first-screen .module-wrap .slide .tab-nav li a {
+	display:block;
+	float:left;
+	height:15px;
+	width:15px;
+	text-indent:-999em;
+	overflow:hidden;
+	background:#fff;
+	opacity:.5;
+	filter:alpha(opacity=50);
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+.itemlist-first-screen .module-wrap .slide .tab-nav li.selected a {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+.itemlist-first-screen .module-wrap .countdown-wrap {
+	position:absolute;
+	left:50%;
+	margin-left:-595px;
+	top:50px;
+	z-index:10;
+	width:270px;
+	height:220px;
+	text-align:center;
+	color:#161616;
+	background:url(../images/mti.png) repeat 0 0;
+}
+.itemlist-first-screen .module-wrap .countdown-wrap h2 {
+	padding:25px 0 15px 0;
+	height:56px;
+	font-size:24px;
+	font-weight:normal;
+	border-bottom:1px solid #a6a6a6;
+	background:url(../images/qiang.png) no-repeat 0 0;
+}
+.itemlist-first-screen .module-wrap .countdown-wrap h2 strong {
+	font-size:34px;
+	color:#ce0045;
+	font-weight:normal;
+}
+.itemlist-first-screen .module-wrap .countdown-wrap h3 {
+	padding-top:30px;
+	font-weight:normal;
+	font-size:16px;
+	color:#cd0044;
+	margin-bottom:8px;
+	border-top:1px solid #cacaca;
+}
+.itemlist-first-screen .module-wrap .countdown-wrap .lefttimes {
+	font-size:14px;
+	line-height:32px;
+}
+.itemlist-first-screen .module-wrap .countdown-wrap .lefttimes s {
+	font-size:16px;
+}
+.itemlist-first-screen .module-wrap .countdown-wrap .lefttimes .digital {
+	display:inline-block;
+	margin:0 1px;
+	padding:0 3px;
+	*display:inline;
+	zoom:1;
+	color:#fff;
+	text-decoration:none;
+	background:url(../images/tbg.png) no-repeat 0 0;
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+	.itemlist-first-screen .module-wrap .grid-m {
+	width:1190px!important;
+}
+}@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
+	.itemlist-first-screen .module-wrap .grid-m {
+	width:1190px!important;
+}
+}* {
+	margin:0;
+	padding:0
+}
+.act-banner-pc .container img {
+	width:100%;
+	display:block
+}
+.itemlist-for-qxofifashion .dataText {
+	display:none
+}
+.itemlist-for-qxofifashion .module-wrap {
+	width:1190px;
+	margin:0 auto 30px;
+	position:relative;
+	color:#333
+}
+.itemlist-for-qxofifashion .module-wrap .img-vertical {
+	display:table;
+	text-align:center;
+	overflow:hidden;
+	font-size:0;
+	*display:block;
+	*layout-grid-line:100%
+}
+.itemlist-for-qxofifashion .module-wrap .img-vertical .img-wrap {
+	display:table-cell;
+	vertical-align:middle;
+	*display:inline;
+	*writing-mode:tb-rl;
+	*text-align:center;
+	*height:100%
+}
+.itemlist-for-qxofifashion .module-wrap .img-vertical img {
+	vertical-align:middle
+}
+.itemlist-for-qxofifashion .module-wrap .ms-yh {
+	font-family:"Microsoft YaHei","Hiragino Sans GB"
+}
+.itemlist-for-qxofifashion .module-wrap a:hover {
+	text-decoration:none
+}
+.itemlist-for-qxofifashion .module-wrap .q-title {
+	padding:10px 0;
+	font-size:26px;
+	font-weight:400
+}
+.itemlist-for-qxofifashion .module-wrap .q-title span {
+	font-size:14px;
+	color:#464646;
+	padding-left: 10px;
+}
+.itemlist-for-qxofifashion .module-wrap .list li {
+	position:relative;
+	float:left;
+	margin:0 10px 10px 0;
+	display:inline;
+	width:230px;
+	overflow:hidden;
+	background:#fff;
+	height:454px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .inner {
+	width:100%;
+	height:100%
+}
+.itemlist-for-qxofifashion .module-wrap .list li .pic-wrap {
+	height:345px;
+	width:230px;
+	background:#fff;
+	overflow:hidden
+}
+.itemlist-for-qxofifashion .module-wrap .list li .ipic .img-wrap {
+	width:284px;
+	height:345px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .grac {
+	color:#999!important
+}
+.itemlist-for-qxofifashion .module-wrap .list li .txt {
+	position:absolute;
+	top:323px;
+	right:0;
+	width:48px;
+	text-align:center;
+	height:68px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .txt .filter {
+	width:100%;
+	height:22px;
+	display:block;
+	opacity:.6;
+	filter:alpha(opacity=60);
+	z-index:9;
+	position:absolute;
+	top:0;
+	left:0
+}
+.itemlist-for-qxofifashion .module-wrap .list li .txt .statu {
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	color:#fff;
+	width:100%;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	z-index:10;
+	position:relative
+}
+.itemlist-for-qxofifashion .module-wrap .list li .txt .num {
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	line-height:18px;
+	color:#fff;
+	font-size:12px;
+	width:100%;
+	padding-top:5px;
+	height:43px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .txt .num strong {
+	font-weight:400;
+	font-size:18px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .red .filter,.itemlist-for-qxofifashion .module-wrap .list li .red .num {
+	background:#f03
+}
+.itemlist-for-qxofifashion .module-wrap .list li .green .filter,.itemlist-for-qxofifashion .module-wrap .list li .green .num {
+	background:#26b875
+}
+.itemlist-for-qxofifashion .module-wrap .list li .gray .filter,.itemlist-for-qxofifashion .module-wrap .list li .gray .num {
+	background:#999
+}
+.itemlist-for-qxofifashion .module-wrap .list li .blue {
+	width:56px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .blue .filter,.itemlist-for-qxofifashion .module-wrap .list li .blue .num {
+	background:#3ea3d5
+}
+.itemlist-for-qxofifashion .module-wrap .list li .box {
+	width:228px;
+	border-left:1px solid #e6e6e6;
+	border-right:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	height:108px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .shop-mask {
+	text-align:center;
+	color:#666
+}
+.itemlist-for-qxofifashion .module-wrap .list li .shop-mask h3 {
+	width:220px;
+	font-size:12px;
+	font-weight:400;
+	text-align:left;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	padding-left:10px;
+	border-top:2px solid #f8f8f8;
+	line-height:28px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .shop-mask h3 a {
+	color:#333;
+	padding-right:10px;
+	background:url(../images/mx.png) right 4px no-repeat
+}
+.itemlist-for-qxofifashion .module-wrap .list li .shouqing {
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7FFFFFFF',endColorstr='#7FFFFFFF');
+	background:rgba(255,255,255,.5);
+	top:0;
+	width:230px;
+	height:345px;
+	position:absolute;
+	left:0;
+	z-index:99
+}
+.itemlist-for-qxofifashion .module-wrap .list li .over {
+	position:absolute;
+	left:50px;
+	top:110px;
+	z-index:100
+}
+.itemlist-for-qxofifashion .module-wrap .list li .info {
+	position:relative;
+	height:70px;
+	padding:5px 10px 0;
+	width:160px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .info h3.title {
+	margin-bottom:5px;
+	font-size:12px;
+	line-height:18px;
+	overflow:hidden;
+	height:36px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .info h3.title a {
+	color:#333;
+	font-weight:400
+}
+.itemlist-for-qxofifashion .module-wrap .list li .info .price {
+	line-height:26px;
+	color:#666;
+	vertical-align:top
+}
+.itemlist-for-qxofifashion .module-wrap .list li .info .price em {
+	color:#f03;
+	font-size:14px
+}
+.itemlist-for-qxofifashion .module-wrap .list li .info .price span {
+	color:#f03;
+	font-size:18px;
+	font-weight:700
+}
+.itemlist-for-qxofifashion .module-wrap .list li.hover {
+	width:230px;
+	overflow:hidden;
+	background:#000
+}
+.itemlist-for-qxofifashion .module-wrap .list li.hover .box {
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000
+}
+.itemlist-for-qxofifashion .module-wrap .list li.hover .price,.itemlist-for-qxofifashion .module-wrap .list li.hover h3.title a {
+	color:#fff
+}
+.itemlist-for-qxofifashion .module-wrap .list li.hover .price em,.itemlist-for-qxofifashion .module-wrap .list li.hover .price span {
+	color:#fff!important
+}
+.itemlist-for-qxofifashion .module-wrap .list li.hover .shop-mask h3 {
+	border-top:2px solid #222
+}
+.itemlist-for-qxofifashion .module-wrap .list li.hover .shop-mask h3 a {
+	color:#fff;
+	background:url(../images/qx.png) right 6px no-repeat
+}
+.itemlist-for-qxofifashion .module-wrap .list li.hover .over,.itemlist-for-qxofifashion .module-wrap .list li.hover .shouqing {
+	display:block
+}
+.itemlist-for-qxofifashion .module-wrap .list li.nomr {
+	margin-right:0
+}
+.itemlist-for-qxofifashion .module-wrap .square li {
+	height:339px
+}
+.itemlist-for-qxofifashion .module-wrap .square li .shop-mask {
+	top:260px;
+	height:50px
+}
+.itemlist-for-qxofifashion .module-wrap .square li .pic-wrap,.itemlist-for-qxofifashion .module-wrap .square li .pic-wrap .img-vertical .img-wrap {
+	height:230px
+}
+.itemlist-for-qxofifashion .module-wrap .square li .over {
+	top:50px;
+	height:50px
+}
+.itemlist-for-qxofifashion .module-wrap .square li .shouqing {
+	height:230px
+}
+.itemlist-for-qxofifashion .module-wrap .square li .txt {
+	top:208px
+}
+.itemlist-for-qxofifashion .module-wrap .square li:hover {
+	height:339px
+}

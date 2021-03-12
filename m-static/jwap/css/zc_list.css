@@ -1,0 +1,125 @@
+@charset "utf-8";
+/*goods-list by yangtata start*/
+.goods-list li:nth-child(even){right:0}
+.goods-list .boxt .good-price .des-other .icon-gai,.goods-list .boxt .good-price .des-other .icon-fan,.goods-list .boxt .media .btn a em,.goods-list .boxt.hover .media .btn a,.goods-list .boxt .media .btn.start a,.goods-list .boxt .media .btn.start_1 a,.goods-list .boxt .like-ceng .iphone-ico{background:url(../images/list-total.png) no-repeat;}
+.goods-list{ margin: 0px auto 0;width:100%;}
+.goods-list .boxt{width:7.9rem;;background:#FFF;float:left;border:#E3E3E3 solid 1px;}
+.goods-list .boxt.last{float:right;}
+.goods-list .boxt .good-pic {width:7.9rem;; margin:auto 0; position: relative; }
+.goods-list .boxt .pic-img{  overflow:hidden; text-align:center; width:7.9rem;; display:table-cell; vertical-align:middle;}
+.goods-list .boxt .pic-img img{ max-width:7.9rem;;}
+.goods-list .boxt .pic-img:hover{ text-decoration:none; cursor:pointer;}
+.goods-list .boxt .buy-over{cursor:pointer;position:relative;display:block;position:absolute;top:80px;left:80px;background:url(../images/buy-over.png) no-repeat;height:0;width:120px;padding-top:120px;overflow:hidden;z-index:15;}
+.goods-list .boxt .buy-over.brand{background:url(../images/buy-over-brand.png) no-repeat;}
+.goods-list .boxt .buy-over a{display:block;position:absolute;bottom:25px;left:30px;color:#ffff66;font-size:.4rem;}
+.goods-list .boxt .list-good {position: relative; width:7.9rem;; height:100%; z-index:1;float: left;}
+.goods-list .boxt .good-title {font-size:.4rem;width:7.6rem;height:22px; line-height:22px;overflow: hidden;margin:5px 10px 3px 5px; position:relative; font-weight:normal;color:#282828;text-overflow: ellipsis;white-space: nowrap;-o-text-overflow: ellipsis;}.ncinfos{width:204px}
+.goods-list .boxt .good-title a{ display: inline;color:#333;letter-spacing:1px;}
+.goods-list .boxt .good-title a:hover{ text-decoration:underline; color:#333;}
+.goods-list .boxt .good-title span.sold{display:block;color:#bbb;position:absolute;top:0;right:0;background:#fff;width:60px;height:18px;text-align:right;}
+.brand{background:url(../images/brand.png) no-repeat 0 0}
+.brand-new{background:url(../images/float-icon.png) no-repeat 0 0; padding-top:2px; height:35px; width: 37px; color:#fff; text-align:center; line-height:14px;position:absolute;top:0; left:0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='crop',src="../images/float-icon.png");}
+.brand-new.brand{background:url(../images/brand-icon.png) no-repeat 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='crop',src="../images/brand-icon.png");}
+/*this is good-price by yangtata*/
+.goods-list .boxt .good-price { width:100%; height:1.5rem;line-height:1.5rem; position: relative;background:#fff; z-index:10;}
+.goods-list .boxt .good-price .price-current,.goods-list .boxt .good-price .des-other{ display:block; float:left;}
+.goods-list .boxt .good-price .price-current {font-size:.8rem;font-family: 'Microsoft YaHei','Hiragino Sans GB',tahoma,arial,sans-serif;font-weight: normal;font-style: normal;}
+[data-dpr="1"] .goods-list .boxt .good-price .price-current{font-size:18px;}
+[data-dpr="2"] .goods-list .boxt .good-price .price-current {font-size:36px;}
+[data-dpr="3"] .goods-list .boxt .good-price .price-current {font-size:54px;}
+.goods-list .boxt .good-price .price-current em {font-size: .4rem; font-family:"微软雅黑","verdana"; vertical-align:1px; margin-left:1px;}
+.goods-list .boxt .list-good.buy .good-price .price-current{ color:#ff3366;}
+.goods-list .boxt .list-good.start .good-price .price-current{ color:#008800;}
+.goods-list .boxt .list-good.gone .good-price .price-current{ color:#ccc;}
+.goods-list .boxt .list-good .waterfall-common-user {margin: .2rem .1rem;position: relative;}
+.goods-list .boxt .list-good .waterfall-common-user .media-img {margin-right: 5px;}
+.brand-banner{width:100%}
+.brand-banner img{width:100%}
+.media-card .media-img-32 {width: 1rem;height: 1rem;}
+.media-card .media-img {border-radius: 50%;overflow: hidden;}
+.media .media-img {float: left;display: inline;}
+.media .media-img img {display: block;width: auto;height: 100%;}
+.media .media-body {overflow: hidden;}
+.text-overflow {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.c0 {color: #000;}
+.f12 {font-size: .4rem;}
+[data-dpr="1"] .f12{font-size:12px;}
+[data-dpr="2"] .f12 {font-size:24px;}
+[data-dpr="3"] .f12 {font-size:36px;}
+.goods-list .boxt .good-price .volume i{color:#00A7FF;padding:0 .1rem}
+.c9 {color: #999;}
+.media-card {overflow: hidden;}
+.goods-list .boxt .list-good .waterfall-common-ugc {margin: 0 .2rem;float:left;position: relative;}
+.goods-list .boxt .list-good .waterfall-common-ugc p {height:1rem;line-height:1rem;overflow: hidden;word-wrap: break-word;word-break: break-all;text-overflow: ellipsis;font-size:.5rem;white-space: nowrap;width: 7.9rem;}
+[data-dpr="1"] .goods-list .boxt .list-good .waterfall-common-ugc p{font-size:12px;}
+[data-dpr="2"] .goods-list .boxt .list-good .waterfall-common-ugc p {font-size:24px;}
+[data-dpr="3"] .goods-list .boxt .list-good .waterfall-common-ugc p {font-size:36px;}
+.goods-list .boxt .list-good .waterfall-common-ugc i {display: inline-block;width: .7rem;height: .7rem;background: url(../images/ico00.png) no-repeat;background-size: 5rem;}
+.goods-list .boxt .list-good .waterfall-common-ugc .sqt {background-position:0rem -2.99rem;}
+.goods-list .boxt .list-good .waterfall-common-ugc .eqt {background-position:-1.01rem -2.99rem;}
+.ceb {color: #ebebeb;}
+.c6{color:#666}
+.f16 {font-size: 16px;}
+.iconfont {font-family: iconfont;font-size: 16px;font-style: normal;-webkit-font-smoothing: antialiased;}
+/*this is des-other by yangtata*/
+.goods-list .boxt .good-price .des-other{margin: 0 0 0 .2rem;height: 1.5rem;line-height: .9rem;width: 2.5rem;font-size: .5rem;}
+.goods-list .boxt .good-price .volume{float:right;color:#FA6187;font-size: .5rem;}
+[data-dpr="1"] .goods-list .boxt .good-price .volume{font-size:12px;}
+[data-dpr="2"] .goods-list .boxt .good-price .volume {font-size:24px;}
+[data-dpr="3"] .goods-list .boxt .good-price .volume {font-size:36px;}
+.goods-list .boxt .good-price .volume i{color:#00A7FF;padding:0 .1rem}
+.goods-list .boxt .good-price .des-other p{margin-top:.4rem;}
+.goods-list .boxt .good-price .des-other strong{ width:auto; height:16px; display:block;}
+.goods-list .boxt .good-price .des-other .icon-gai,.goods-list .boxt .good-price .des-other .icon-fan,.goods-list .boxt .good-price .des-other .icon-temai{display:block;  height:0;  overflow:hidden;float:left;}
+.goods-list .boxt .good-price .des-other .icon-gai{ background:#fff;color: #ccc;width:auto;height:17px;font-weight:normal;text-align:center;line-height:17px}
+.goods-list .boxt .good-title strong {width:40px;}
+.goods-list .boxt .good-title .icon-gai{ background:#fff;border: 1px solid #45ddb4;color: #45ddb4;width:40px;height:20px;font-weight:normal;text-align:center;line-height:20px}
+.goods-list .boxt .good-price .des-other .icon-fan{ background-position:-159px -17px; width:41px; padding-top:18px;margin-right:3px;}
+.goods-list .boxt .good-price .des-other .price-old {color: #bbb; text-decoration: line-through;font-size:.4rem;}
+[data-dpr="1"] .goods-list .boxt .good-price .des-other .price-old{font-size:12px;}
+[data-dpr="2"] .goods-list .boxt .good-price .des-other .price-old {font-size:24px;}
+[data-dpr="3"] .goods-list .boxt .good-price .des-other .price-old {font-size:36px;}
+.goods-list .boxt .good-price .des-other .price-old em{ font-family:"微软雅黑","verdana";font-size:.4rem;}
+.goods-list .boxt .good-price .des-other .discount { color:#f8285c; vertical-align:top;}
+.goods-list .boxt .list-good .btn{width: 75px;float: right;margin-top: -30px;}
+.goods-list .boxt .list-good .btn a{ font-family:"宋体";display:block;text-align:center;font-size: 14px;cursor:pointer; color:#f8285c;width:70px;height:30px; line-height:30px;overflow:hidden;}
+.goods-list .boxt .list-good .btn a em{display:inline;float:left;width:15px;height:15px;margin:8px -4px 0 12px;margin:7px -4px 0 12px \9;_margin:7px -4px 0 12px;vertical-align:-2px;}
+.goods-list .boxt .list-good .btn a .m-icon{background-position:right -71px;}
+.goods-list .boxt .list-good .btn a .b-icon{background-position:right -37px;}
+.goods-list .boxt .list-good .btn a .j-icon{background-position:right -54px;}
+.goods-list .boxt .list-good .btn a .t-icon{background-position:right -88px;}
+.goods-list .boxt .list-good .btn.m-buy span{color:#f8285c;}
+.goods-list .boxt .list-good .btn.t-buy span{color:#ff5400;}
+.goods-list .boxt .list-good .btn.start,.goods-list .boxt .good-price .btn.start_1{right:-3px;top:3px;}
+.goods-list .boxt .list-good.btn.start a,.goods-list .boxt .good-price .btn.start_1 a{width:83px;height:32px;padding-left:4px;background-position:0 -61px;color:#fff;line-height:34px;line-height:36px \9;_line-height:36px;}
+.goods-list .boxt .list-good .btn.gone a{cursor:default;}
+.goods-list .boxt .list-good .btn a:hover{text-decoration:none;color:#fff}
+.goods-list .boxt.hover .good-price .btn.buy a:hover{background-position:0 -31px;}
+
+/*this is like-ceng*/
+.goods-list .boxt .like-ceng{ height: 48px;background: rgba(0,0,0,.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);zoom:1;position: absolute;top:237px;width:265px;
+left:0; padding: 0 0 0 20px; display: none; z-index: 99;}
+:root #aaa{filter:none\9;}/*for IE9*/
+.goods-list .boxt .like-ceng .iphone-ico{ width: 20px; height: 29px;background-position:right -185px; display: block; float: left; margin: 9px 0;}
+.goods-list .boxt .like-ceng .tips{ float: left; color: #fff; padding: 5px 0 7px 20px;}
+.goods-list .boxt .like-ceng p{line-height: 18px;}
+.goods-list .boxt .like-ceng .tips em{ background: #ff3838; padding: 2px 5px; border-radius: 2px;}
+.goods-list .boxt:hover{border:#f8285c solid 1px;}
+.goods-list .boxt.hover .my-like{display:block;}
+.goods-list .boxt.hover .media .btn.buy span{color:#fff;}
+.goods-list .boxt.hover .media .btn.buy a .b-icon{background-position:right -105px;}
+.goods-list .boxt.hover .media .btn.buy{right:0px;top:3px;}
+.goods-list .boxt.hover .media .btn.start{right: -3px;top: 3px;}
+.goods-list .boxt.hover .media .btn.gone a{background:none;color:#f8285c;}
+.goods-list .boxt.hover .media .btn.buy .j-icon,.goods-list .boxt.hover .media .btn.buy .m-icon,.goods-list .boxt.hover .media .btn.buy .t-icon{display:none;}
+.goods-list .boxt.hover .quan-hd{display:block;}
+
+
+.bbos {
+  margin-bottom: 20px;
+  float: left;
+  width:280px;
+  }
+  .bbos img {
+  max-width: 100%
+}

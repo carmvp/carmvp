@@ -1,0 +1,150 @@
+.m-account {
+position: relative;
+background: #fff;
+width: 988px;
+}
+.fl {
+float: left;
+display: inline;
+}
+.m-account .fund-information, .m-account .busi-information {
+width: 910px;
+padding: 25px 30px;
+}
+.m-account .regists-information {
+font-size: 12px;
+color: #333;
+}
+.pb0 {
+padding-bottom: 0px!important;
+}
+.m-account .fund-information h3, .m-account .busi-information h3 {
+padding-bottom: 10px;
+padding-left: 10px;
+font-size: 16px;
+border-bottom: 1px solid #e2e2e2;
+margin-bottom: 20px;
+}
+.m-account h3 {
+padding-bottom: 15px;
+color: #333;
+}
+
+.inr_tips {
+width: 910px;
+font-size: 14px;
+color: #333;
+margin-bottom: 20px;
+line-height: 25px;
+}
+.ml40 {
+margin-left: 40px!important;
+}
+.m-account .goods-message {
+padding: 0 40px;
+}
+.goods-message .message-box {
+padding-bottom: 15px;
+}
+.m-account .goods-message li {
+width: 960px;
+padding-bottom: 20px;
+margin-bottom: 0;
+}
+.message-box-dianpu li {
+font-size: 14px;
+color: #333;
+width: auto;
+}
+.goods-message li {
+width: 930px;
+padding-bottom: 15px;
+float: left;
+clear: both;
+position: relative;
+color: #666;
+}
+.ncinfos{width:204px}
+.goods-message h5 {
+color: #333;
+}
+.message-box-dianpu .gre {
+color: #ff3366;
+}
+.goods-message .message-box-dianpu li label {
+width: auto;
+}
+.goods-message li label {
+width: 70px;
+float: left;
+font-size: 14px;
+color: #333;
+height: 34px;
+line-height: 34px;
+text-align: right;
+}
+.goods-message li .txt-02 {
+width: 493px;
+}
+.goods-message li .txt {
+border-color: #e5e5e5;
+border-style: solid;
+border-width: 1px;
+color: #333;
+float: left;
+font-size: 12px;
+height: 34px;
+padding-left: 5px;
+line-height: 34px\9;
+background: #fff;
+border-radius: 2px;
+padding:0
+}
+.link-tips {
+color: #ff3838;
+font-size: 12px;
+border: 1px solid #ff3838;
+float: left;
+height: 32px;
+line-height: 32px;
+position: relative;
+}
+.ml70 {
+margin-left: 70px;
+}
+.mt10 {
+margin-top: 10px !important;
+}
+
+.s_cor {
+color: #999;
+}
+.f12 {
+font-size: 12px;
+}
+
+.sub01 {
+background: #ff3366;
+}
+.sub {
+border: 1px solid #dc0138;
+color: #fff;
+text-align: center;
+border-radius: 2px;
+display: block;
+cursor: pointer;
+}
+.goods-message .sub01 {
+width: 138px;
+line-height: 38px;
+color: #fff;
+font-weight: 700;
+cursor: pointer;
+font-size: 18px;
+}
+.sub01:hover {
+background: #ff517d;
+}
+.sub:hover {
+text-decoration: none;
+}

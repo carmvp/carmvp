@@ -1,0 +1,42 @@
+@font-face{font-family:"uxiconfont";src:url("//assets.alicdn.com/g/thx/brix/fonts/uxiconfont.eot");src:url("//assets.alicdn.com/g/thx/brix/fonts/uxiconfont.eot?#iefix") format("embedded-opentype"),url("//assets.alicdn.com/g/thx/brix/fonts/uxiconfont.woff") format("woff"),url("//assets.alicdn.com/g/thx/brix/fonts/uxiconfont.ttf") format("truetype"),url("//assets.alicdn.com/g/thx/brix/fonts/uxiconfont.svg#svgFontName") format("svg")}
+.iconfont{font-family:"uxiconfont";font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.dialog-overlay-mask{background-color:#000;opacity:.3;filter:alpha(opacity=15)}
+.dialog-overlay-mask-hidden{display:none}
+.dialog-overlay-hidden{visibility:hidden}
+.dialog{font-family:tahoma,"Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;}
+.dialog .dialog-overlay-content{-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:0 0 10px rgba(0,0,0,0.1);-moz-box-shadow:0 0 10px rgba(0,0,0,0.1);box-shadow:0 0 10px rgba(0,0,0,0.1);border:1px solid #ddd;background-color:#fff}
+.dialog .dialog-overlay-close{position:absolute;width:20px;height:20px;text-decoration:none;text-align:center;display:block;cursor:default}
+.dialog .dialog-overlay-close:hover .dialog-overlay-close-x{color:#488fcd;font-size:28px;line-height:28px;left:0;top:0}
+.dialog .dialog-overlay-close-x{font-family:"uxiconfont";font-style:normal;color:#ccc;font-size: 20px;line-height: 20px;position: absolute;left: 2px;}
+.dialog-left .dialog-overlay-content{-webkit-box-shadow:-5px 0 10px rgba(0,0,0,0.1);-moz-box-shadow:-5px 0 10px rgba(0,0,0,0.1);box-shadow:-5px 0 10px rgba(0,0,0,0.1);border-right:0}
+.dialog-right .dialog-overlay-content{-webkit-box-shadow:5px 0 10px rgba(0,0,0,0.1);-moz-box-shadow:5px 0 10px rgba(0,0,0,0.1);box-shadow:5px 0 10px rgba(0,0,0,0.1);border-left:none}
+.dialog-up .dialog-overlay-content{-webkit-box-shadow:0 -5px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 -5px 10px rgba(0,0,0,0.1);box-shadow:0 -5px 10px rgba(0,0,0,0.1);border-bottom:0}
+.dialog-down .dialog-overlay-content{-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 5px 10px rgba(0,0,0,0.1);box-shadow:0 5px 10px rgba(0,0,0,0.1);border-top:0}
+.bx-form.supportCheck label{max-width:100%;margin-bottom: 0;}
+ input.iknow-checkbox{-webkit-appearance:checkbox;outline:none;cursor:pointer;margin:0!important;vertical-align: middle;width:15px; height:15px;}
+.bold {font-weight: 700;}
+.red{color: #FB3434;}.ncinfos{width:204px}
+.black {color: #333;}
+.icheckbox{position:relative;display:inline-block;vertical-align:middle;left:0;top:0;margin:0;padding:0;border:none;cursor:pointer}
+.icheckbox{background:url(../images/fanc_c.png);background-position:0 0;background-repeat:no-repeat;background-size: .5rem 1rem;width: .5rem; height: .52rem;}
+.icheckbox.checked{background-position:0 -16px}
+.icheckbox.disabled{background-position:0 -286px}
+.icheckbox.checked-disabled{background-position:0 -322px}
+.dialog .ok{background: #fb3434;border-radius: 50px;width: 100px;height: 30px;text-align: Center;vertical-align: middle;line-height: 30px;color: #fff;font-size: 13px;margin: 10px auto 0;cursor: pointer;}
+.dialog.confirm .dialog-overlay-content,.dialog.info .dialog-overlay-content,.dialog.nostart .dialog-overlay-content,.dialog.soldout .dialog-overlay-content{border-radius:10px;padding:10px;}
+.dialog.confirm .dialog-overlay-close,.dialog.info .dialog-overlay-close,.dialog.nostart .dialog-overlay-close,.dialog.soldout .dialog-overlay-close{top:6px;right:6px}
+.dialog.confirm .dialog-overlay-close:hover .dialog-overlay-close-x,.dialog.info .dialog-overlay-close:hover .dialog-overlay-close-x,.dialog.nostart .dialog-overlay-close:hover .dialog-overlay-close-x,.dialog.soldout .dialog-overlay-close:hover .dialog-overlay-close-x{color:#ccc}
+.dialog.confirm .container,.dialog.info .container,.dialog.nostart .container,.dialog.soldout .container{position:relative}
+.dialog.confirm .container .img-title,.dialog.info .container .img-title,.dialog.nostart .container .img-title,.dialog.soldout .container .img-title{position:absolute;width:100%;margin:0 auto;text-align:center;top: -70px;}
+.dialog.confirm .container .img-title img,.dialog.info .container .img-title img,.dialog.nostart .container .img-title img,.dialog.soldout .container .img-title img{width:100px;height:100px;}
+.dialog.confirm .container .text-content,.dialog.info .container .text-content,.dialog.nostart .container .text-content,.dialog.soldout .container .text-content{color: #333;padding:40px 0 20px;text-align: center;}
+.dialog.confirm .container .bx-form,.dialog.info .container .bx-form,.dialog.nostart .container .bx-form,.dialog.soldout .container .bx-form{text-align:center}
+.dialog.confirm .container .bx-form .iknow-name,.dialog.info .container .bx-form .iknow-name,.dialog.nostart .container .bx-form .iknow-name,.dialog.soldout .container .bx-form .iknow-name{vertical-align:middle;margin-left: 2px; font-size: 12px;font-weight: 400;color: #000;}
+.dialog .oper-title-icon{font-size:40px;color:#F70}
+.dialog .operation-btns{margin:0 auto}
+.dialog .cancel-btn,.dialog .confirm-btn{width:105px;height:38px;color:#fff;text-align:center;cursor:pointer;border-radius:17px;font-size:20px;line-height:38px;margin-top:50px}
+.dialog .confirm-btn{background:#FB3434}
+.dialog .cancel-btn{background:#666}
+.dialog.info .tip-title{font-size:16px;color:#fb3434;font-weight:700;margin-bottom:10px}
+.dialog.info .text-info{font-size:14px;text-align:left;padding:5px}
+.dialog.info .text-info li{line-height:20px;font-size:12px}

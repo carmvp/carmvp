@@ -1,0 +1,7 @@
+@charset 'utf-8';
+.search-keywords .hot-keys{font-size:12px;color:#7c7974;width:540px;float:left;height:25px;line-height:30px;overflow:hidden}
+.search-keywords .hot-keys a{color:#7C7974;padding:0;margin-right:5px;}
+.search-keywords .hot-keys span{color:#D7D7D7;padding-right: 7px;}
+.search-keywords .hot-keys a.red{color:#F34E15}.ncinfos{width:204px}
+.search-keywords .hot-keys a.blue{color:#10b606}
+.search-keywords .hot-keys a:hover{text-decoration:underline}

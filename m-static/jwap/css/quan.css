@@ -1,0 +1,436 @@
+.item-detail-view {
+/* height: 8.5px; */
+overflow: hidden;
+}
+.item-detail-view .item-wrap {
+height: 100%;
+}
+.item-wrap .item-detail {
+border-bottom: 1px dashed #c7c7c7;
+padding: 4%;
+overflow: hidden;
+width: 100%;
+box-sizing: border-box;
+display: block;
+}
+.item-wrap .item-detail .pic {
+width: 36%;
+float: left;
+}
+.item-wrap .item-detail .pic img {
+width: 100%;
+border: 1px solid #c6c6c6;
+}
+.item-wrap .item-detail .item-content {
+width: 64%;
+height: 100%;
+float: left;
+padding: 0 1%;
+box-sizing: border-box;
+}
+.npage{ height:650px;}
+.item-content .title {
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 24px;
+	height: 24px
+}
+
+.item-content .title span {
+	overflow: hidden;
+	width:100%;
+	color: #333;
+	float:left
+}
+
+.item-content .tags {
+	height: 20px;
+	overflow: hidden;
+	line-height: 20px;
+	margin-top: 1px
+}
+
+.tags .tag {
+	float: left;
+	margin: 0 2px
+}
+
+.tmallTag {
+	width: 17px;
+	height: 17px
+}
+
+.byTag {
+	background: 0 0;
+	font-size: 12px;
+	line-height: 16px;
+	height: 16px;
+	padding: 0 2px;
+	border: 1px solid #f40;
+	color: #f40
+}
+
+.tags .dealNum {
+	float: right;
+	color: #9b9b9b;	
+	position: relative;
+	font-size: 12px;
+}
+
+.item-content .real {
+	font-weight: 500
+}
+
+.item-content .price-origin {
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	margin-top: 1px
+}
+
+.price-origin .price {
+	font-size: 17px;
+	font-weight: 800
+}
+
+.price-origin .origin {
+	color: #333;
+	font-size: 12px;
+	float:right
+}
+
+.price-origin .quan {
+	color: #FF4400;
+	font-size: 14px;
+	float:left
+}
+
+.price-origin .origin-discount {
+	font-size: 16px;
+	color: #f40
+}
+
+.item-content .discount {
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	margin: 1px 0 0
+}
+
+.item-content .discount .img-tag {
+	vertical-align: middle;	
+}
+
+.item-content .discount .sale {
+	font-size:30px;
+	vertical-align: middle;
+	color: #f40;
+	margin-left: 4px
+}
+
+.item-content .discount .sale em {
+	font-size: 15px;
+	font-style: normal;
+	display: inline-block;
+	width: 17px;
+	text-align: center;
+	font-family: 'helvetica neue',tahoma,'hiragino sans gb',stheiti,'wenquanyi micro hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;
+}
+/* Common form controls */
+.am-form select,
+.am-form textarea,
+.am-form input[type="text"],
+.am-form input[type="password"],
+.am-form input[type="datetime"],
+.am-form input[type="datetime-local"],
+.am-form input[type="date"],
+.am-form input[type="month"],
+.am-form input[type="time"],
+.am-form input[type="week"],
+.am-form input[type="number"],
+.am-form input[type="email"],
+.am-form input[type="url"],
+.am-form input[type="search"],
+.am-form input[type="tel"],
+.am-form input[type="color"],
+.am-form-field {
+  display: block;
+  width: 95%;  
+  font-size: 10px;
+  line-height: 0.8;
+   margin-left: 4px ; 
+   margin-top: 8px;  
+  padding-top: 8px;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+.am-form select:focus,
+.am-form textarea:focus,
+.am-form input[type="text"]:focus,
+.am-form input[type="password"]:focus,
+.am-form input[type="datetime"]:focus,
+.am-form input[type="datetime-local"]:focus,
+.am-form input[type="date"]:focus,
+.am-form input[type="month"]:focus,
+.am-form input[type="time"]:focus,
+.am-form input[type="week"]:focus,
+.am-form input[type="number"]:focus,
+.am-form input[type="email"]:focus,
+.am-form input[type="url"]:focus,
+.am-form input[type="search"]:focus,
+.am-form input[type="tel"]:focus,
+.am-form input[type="color"]:focus,
+.am-form-field:focus {
+  outline: 0;
+}
+.am-form select:focus,
+.am-form textarea:focus,
+.am-form input[type="text"]:focus,
+.am-form input[type="password"]:focus,
+.am-form input[type="datetime"]:focus,
+.am-form input[type="datetime-local"]:focus,
+.am-form input[type="date"]:focus,
+.am-form input[type="month"]:focus,
+.am-form input[type="time"]:focus,
+.am-form input[type="week"]:focus,
+.am-form input[type="number"]:focus,
+.am-form input[type="email"]:focus,
+.am-form input[type="url"]:focus,
+.am-form input[type="search"]:focus,
+.am-form input[type="tel"]:focus,
+.am-form input[type="color"]:focus,
+.am-form-field:focus {
+  background-color: #fefffe;
+  border-color: #3bb4f2;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(59, 180, 242, 0.3);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(59, 180, 242, 0.3);
+}
+.am-form select::-webkit-input-placeholder,
+.am-form textarea::-webkit-input-placeholder,
+.am-form input[type="text"]::-webkit-input-placeholder,
+.am-form input[type="password"]::-webkit-input-placeholder,
+.am-form input[type="datetime"]::-webkit-input-placeholder,
+.am-form input[type="datetime-local"]::-webkit-input-placeholder,
+.am-form input[type="date"]::-webkit-input-placeholder,
+.am-form input[type="month"]::-webkit-input-placeholder,
+.am-form input[type="time"]::-webkit-input-placeholder,
+.am-form input[type="week"]::-webkit-input-placeholder,
+.am-form input[type="number"]::-webkit-input-placeholder,
+.am-form input[type="email"]::-webkit-input-placeholder,
+.am-form input[type="url"]::-webkit-input-placeholder,
+.am-form input[type="search"]::-webkit-input-placeholder,
+.am-form input[type="tel"]::-webkit-input-placeholder,
+.am-form input[type="color"]::-webkit-input-placeholder,
+.am-form-field::-webkit-input-placeholder {
+  color: #999999;
+}
+.am-form select::-moz-placeholder,
+.am-form textarea::-moz-placeholder,
+.am-form input[type="text"]::-moz-placeholder,
+.am-form input[type="password"]::-moz-placeholder,
+.am-form input[type="datetime"]::-moz-placeholder,
+.am-form input[type="datetime-local"]::-moz-placeholder,
+.am-form input[type="date"]::-moz-placeholder,
+.am-form input[type="month"]::-moz-placeholder,
+.am-form input[type="time"]::-moz-placeholder,
+.am-form input[type="week"]::-moz-placeholder,
+.am-form input[type="number"]::-moz-placeholder,
+.am-form input[type="email"]::-moz-placeholder,
+.am-form input[type="url"]::-moz-placeholder,
+.am-form input[type="search"]::-moz-placeholder,
+.am-form input[type="tel"]::-moz-placeholder,
+.am-form input[type="color"]::-moz-placeholder,
+.am-form-field::-moz-placeholder {
+  color: #999999;
+}
+.am-form select:-ms-input-placeholder,
+.am-form textarea:-ms-input-placeholder,
+.am-form input[type="text"]:-ms-input-placeholder,
+.am-form input[type="password"]:-ms-input-placeholder,
+.am-form input[type="datetime"]:-ms-input-placeholder,
+.am-form input[type="datetime-local"]:-ms-input-placeholder,
+.am-form input[type="date"]:-ms-input-placeholder,
+.am-form input[type="month"]:-ms-input-placeholder,
+.am-form input[type="time"]:-ms-input-placeholder,
+.am-form input[type="week"]:-ms-input-placeholder,
+.am-form input[type="number"]:-ms-input-placeholder,
+.am-form input[type="email"]:-ms-input-placeholder,
+.am-form input[type="url"]:-ms-input-placeholder,
+.am-form input[type="search"]:-ms-input-placeholder,
+.am-form input[type="tel"]:-ms-input-placeholder,
+.am-form input[type="color"]:-ms-input-placeholder,
+.am-form-field:-ms-input-placeholder {
+  color: #999999;
+}
+.am-form select::placeholder,
+.am-form textarea::placeholder,
+.am-form input[type="text"]::placeholder,
+.am-form input[type="password"]::placeholder,
+.am-form input[type="datetime"]::placeholder,
+.am-form input[type="datetime-local"]::placeholder,
+.am-form input[type="date"]::placeholder,
+.am-form input[type="month"]::placeholder,
+.am-form input[type="time"]::placeholder,
+.am-form input[type="week"]::placeholder,
+.am-form input[type="number"]::placeholder,
+.am-form input[type="email"]::placeholder,
+.am-form input[type="url"]::placeholder,
+.am-form input[type="search"]::placeholder,
+.am-form input[type="tel"]::placeholder,
+.am-form input[type="color"]::placeholder,
+.am-form-field::placeholder {
+  color: #999999;
+}
+.am-form select::-moz-placeholder,
+.am-form textarea::-moz-placeholder,
+.am-form input[type="text"]::-moz-placeholder,
+.am-form input[type="password"]::-moz-placeholder,
+.am-form input[type="datetime"]::-moz-placeholder,
+.am-form input[type="datetime-local"]::-moz-placeholder,
+.am-form input[type="date"]::-moz-placeholder,
+.am-form input[type="month"]::-moz-placeholder,
+.am-form input[type="time"]::-moz-placeholder,
+.am-form input[type="week"]::-moz-placeholder,
+.am-form input[type="number"]::-moz-placeholder,
+.am-form input[type="email"]::-moz-placeholder,
+.am-form input[type="url"]::-moz-placeholder,
+.am-form input[type="search"]::-moz-placeholder,
+.am-form input[type="tel"]::-moz-placeholder,
+.am-form input[type="color"]::-moz-placeholder,
+.am-form-field::-moz-placeholder {
+  opacity: 1;
+}
+.am-form select[disabled],
+.am-form textarea[disabled],
+.am-form input[type="text"][disabled],
+.am-form input[type="password"][disabled],
+.am-form input[type="datetime"][disabled],
+.am-form input[type="datetime-local"][disabled],
+.am-form input[type="date"][disabled],
+.am-form input[type="month"][disabled],
+.am-form input[type="time"][disabled],
+.am-form input[type="week"][disabled],
+.am-form input[type="number"][disabled],
+.am-form input[type="email"][disabled],
+.am-form input[type="url"][disabled],
+.am-form input[type="search"][disabled],
+.am-form input[type="tel"][disabled],
+.am-form input[type="color"][disabled],
+.am-form-field[disabled],
+.am-form select[readonly],
+.am-form textarea[readonly],
+.am-form input[type="text"][readonly],
+.am-form input[type="password"][readonly],
+.am-form input[type="datetime"][readonly],
+.am-form input[type="datetime-local"][readonly],
+.am-form input[type="date"][readonly],
+.am-form input[type="month"][readonly],
+.am-form input[type="time"][readonly],
+.am-form input[type="week"][readonly],
+.am-form input[type="number"][readonly],
+.am-form input[type="email"][readonly],
+.am-form input[type="url"][readonly],
+.am-form input[type="search"][readonly],
+.am-form input[type="tel"][readonly],
+.am-form input[type="color"][readonly],
+.am-form-field[readonly],
+fieldset[disabled] .am-form select,
+fieldset[disabled] .am-form textarea,
+fieldset[disabled] .am-form input[type="text"],
+fieldset[disabled] .am-form input[type="password"],
+fieldset[disabled] .am-form input[type="datetime"],
+fieldset[disabled] .am-form input[type="datetime-local"],
+fieldset[disabled] .am-form input[type="date"],
+fieldset[disabled] .am-form input[type="month"],
+fieldset[disabled] .am-form input[type="time"],
+fieldset[disabled] .am-form input[type="week"],
+fieldset[disabled] .am-form input[type="number"],
+fieldset[disabled] .am-form input[type="email"],
+fieldset[disabled] .am-form input[type="url"],
+fieldset[disabled] .am-form input[type="search"],
+fieldset[disabled] .am-form input[type="tel"],
+fieldset[disabled] .am-form input[type="color"],
+fieldset[disabled] .am-form-field {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+.am-form select.am-radius,
+.am-form textarea.am-radius,
+.am-form input[type="text"].am-radius,
+.am-form input[type="password"].am-radius,
+.am-form input[type="datetime"].am-radius,
+.am-form input[type="datetime-local"].am-radius,
+.am-form input[type="date"].am-radius,
+.am-form input[type="month"].am-radius,
+.am-form input[type="time"].am-radius,
+.am-form input[type="week"].am-radius,
+.am-form input[type="number"].am-radius,
+.am-form input[type="email"].am-radius,
+.am-form input[type="url"].am-radius,
+.am-form input[type="search"].am-radius,
+.am-form input[type="tel"].am-radius,
+.am-form input[type="color"].am-radius,
+.am-form-field.am-radius {
+  border-radius: 2px;
+}
+.am-form select.am-round,
+.am-form textarea.am-round,
+.am-form input[type="text"].am-round,
+.am-form input[type="password"].am-round,
+.am-form input[type="datetime"].am-round,
+.am-form input[type="datetime-local"].am-round,
+.am-form input[type="date"].am-round,
+.am-form input[type="month"].am-round,
+.am-form input[type="time"].am-round,
+.am-form input[type="week"].am-round,
+.am-form input[type="number"].am-round,
+.am-form input[type="email"].am-round,
+.am-form input[type="url"].am-round,
+.am-form input[type="search"].am-round,
+.am-form input[type="tel"].am-round,
+.am-form input[type="color"].am-round,
+.am-form-field.am-round {
+  border-radius: 1000px;
+}
+.am-form textarea,
+.am-form select[multiple],
+.am-form select[size] {
+  height: auto;
+}
+.am-form select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-border-radius: 0;
+  background: #fff url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+') no-repeat 100% center;
+}
+.am-form select[multiple="multiple"] {
+  background-image: none;
+}
+.am-form input[type="datetime-local"],
+.am-form input[type="date"],
+input[type="datetime-local"].am-form-field,
+input[type="date"].am-form-field {
+  height: 37px;
+}
+.am-form input[type="datetime-local"].am-input-sm,
+.am-form input[type="date"].am-input-sm,
+input[type="datetime-local"].am-form-field.am-input-sm,
+input[type="date"].am-form-field.am-input-sm {
+  height: 32px;
+}
+.am-form input[type="datetime-local"] .am-input-lg,
+.am-form input[type="date"] .am-input-lg,
+input[type="datetime-local"].am-form-field .am-input-lg,
+input[type="date"].am-form-field .am-input-lg {
+  height: 41px;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>user_pic_cart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F87F2A" offset="0%"></stop>
+            <stop stop-color="#FAA152" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="个人中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-253.000000, -175.000000)">
+        <g id="Group-7" transform="translate(253.000000, 175.000000)">
+            <rect id="Rectangle-3-Copy" fill="#F6F6F6" opacity="0.100000001" x="0" y="0" width="50" height="50"></rect>
+            <g id="user_pic_cart" transform="translate(11.000000, 13.000000)">
+                <path d="M6,6 L24,6 L22,17 L11.2913875,17 C9.93853435,17 8.75305528,16.094536 8.39709606,14.7893522 L6,6 Z" id="Rectangle-29" fill="url(#linearGradient-1)" opacity="0.300000012"></path>
+                <path d="M28,0 L27.5169429,0 C26.0612197,2.67412016e-16 24.8155756,1.04507171 24.5625922,2.478644 L22,17 L22,20" id="Path-2" stroke="#F7802C" stroke-width="1.5" stroke-linecap="round"></path>
+                <path d="" id="Path-9" stroke="#979797"></path>
+                <path d="M0,3 L24,3" id="Path-10" stroke="url(#linearGradient-1)" stroke-width="1.5" stroke-linecap="round"></path>
+                <path d="M22,17 L8.26290424,17 C6.92346316,17 5.74630516,16.1120681 5.3783324,14.8241634 L2,3" id="Path-11" stroke="url(#linearGradient-1)" stroke-width="1.5" stroke-linecap="round"></path>
+                <path d="M9,22 L19,22" id="Path-12" stroke="url(#linearGradient-1)" stroke-width="1.5" stroke-linecap="round"></path>
+                <circle id="Oval-12" stroke="url(#linearGradient-1)" stroke-width="1.5" stroke-linecap="round" cx="6.5" cy="22.5" r="2.5"></circle>
+                <circle id="Oval-12-Copy" stroke="url(#linearGradient-1)" stroke-width="1.5" stroke-linecap="round" cx="21.5" cy="22.5" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

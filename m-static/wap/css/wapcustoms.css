@@ -1,0 +1,114 @@
+html {
+	background-color: #FFF
+}
+
+.customs-main {
+	padding: 44px 13px;
+	background: #fff
+}
+
+.customs-main .cusitem {
+	position: relative;
+	height: 26px;
+	line-height: 26px;
+	padding: 22px 0;
+	border-bottom: #eee 1px solid
+}
+
+.customs-main .wechat.cusitem {
+	height: auto;
+	padding: 22px 0 20px
+}
+
+.customs-main .cusitem i {
+	background: url(../images/cms-img.png) -151px 0 no-repeat;
+	background-size: 287px 800px;
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	left: 0;
+	top: 22px
+}
+
+.customs-main .cusitem.telephone i {
+	background-position: -182px 0
+}
+
+.customs-main .cusitem.wechat i {
+	background-position: -214px 0
+}
+
+.customs-main .cusitem .main-btn {
+	width: 80px;
+	height: 25px;
+	box-sizing: border-box;
+	border: 1px solid #fe4a65;
+	position: absolute;
+	color: #fe4a65;
+	font-size: 14px;
+	text-align: center;
+	line-height: 24px;
+	border-radius: 4px;
+	top: 22px;
+	right: 0
+}
+
+.customs-main .cusitem .main-wrap {
+	margin-left: 32px;
+	position: relative;
+	font-size: 17px
+}
+.ncinfos{width:204px}
+.customs-main .cusitem .main-wrap .tit {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #ccc
+}
+
+.customs-main .cusitem .main-wrap .main-content {
+	margin-left: 56px;
+	color: #666;
+	max-width: 100px
+}
+
+.customs-main .cusitem.wechat .main-wrap .main-content {
+	max-width: 100%
+}
+
+.customs-main .cusitem .main-wrap .main-content .wechat-name {
+	display: block;
+	margin-bottom: 20px
+}
+
+.customs-main .cusitem .main-wrap .main-content .wechat-img {
+	margin-bottom: 12px
+}
+
+.customs-main .cusitem .main-wrap .main-content .wechat-img img {
+	width: 200px;
+	overflow: hidden
+}
+
+.customs-main .cusitem .main-wrap .main-content p {
+	font-size: 12px;
+	color: #666;
+	margin: 0;
+	padding: 0;
+	line-height: 15px
+}
+
+.server-time {
+	display: block;
+	height: auto;
+	color: #aaa;
+	line-height: 1.1rem;
+	font-size: 7px;
+	text-align: center;
+	margin: 1.5rem 10px 10px
+}
+
+.server-time b {
+	font-weight: 400;
+	padding: 0 2px
+}

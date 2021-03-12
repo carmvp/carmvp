@@ -1,0 +1,17 @@
+#find_product_group{overflow:hidden;background: #F6F6F6;}
+.find_product .find_product_info{margin: 10px auto 5px;width: 100%;height: 40px;font-size: 16px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 40px;background: url(../images/find_product_bg.png) center no-repeat;background-size: 30% 7px;}
+.find_product ul{width:50%;float:left;padding:0 10px;box-sizing: border-box;}
+.find_product ul:nth-child(1){padding-right:5px}
+.find_product ul:nth-child(2){padding-left:5px}
+.find_product ul li{margin-top:10px;padding-bottom:10px}
+.find_product .find_product_list{border-radius:5px;background:#fff;overflow:hidden}
+.find_product .find_product_list .find_product_list_img{width: 100%;border-radius: 5px 5px 0 0;background: #ccc;}
+.find_product .find_product_list .find_product_list_img img{width: 100%;border-radius: 5px 5px 0 0;}
+.find_product .find_product_list .find_product_list_title{width: 100%;font-size: 12px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 17px;margin:5px auto;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;padding: 0 5px;box-sizing: border-box;}
+.find_product .find_product_list .find_product_label{width: 100%;margin: 0 auto 5px;padding: 0 5px;box-sizing: border-box;height: 20px;}
+.find_product .find_product_list .find_product_label span{height:22px;border-radius: 3px;border: 1px solid #ff9793;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #ff3b32;line-height: 22px;margin-right: 3px;text-align: center;padding: 0 4px;}.ncinfos{width:111px}
+.find_product .find_product_list .find_product_label .label1{border:0;background:linear-gradient(90deg,#ff8873 0,#ff4f4f 100%);color:#FFF;float:left}
+.find_product .find_product_list .find_product_label .label2{border:0;background:rgba(218,135,135,.27);font-size:12px;color:#fe4a65;float:right}
+.find_product .find_product_list .find_product_price{padding: 0 5px;box-sizing: border-box;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #ff3b32;line-height: 14px;}
+.find_product .find_product_list .find_product_price span{font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;line-height: 25px;}
+.find_product .find_product_list .find_product_more{padding: 0 5px;box-sizing: border-box;margin:5px 0;display: flex;justify-content: space-between;width: 100%;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 14px;}
