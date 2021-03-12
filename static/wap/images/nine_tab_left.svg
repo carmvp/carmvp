@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="1.76345737%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#E289FC" offset="0%"></stop>
+            <stop stop-color="#A074FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="9.9包邮" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-112.000000, -344.000000)">
+        <rect id="Mask" fill="#FFFFFF" x="0" y="321" width="375" height="60" rx="10"></rect>
+        <g id="Group-2" transform="translate(111.000000, 343.000000)">
+            <rect id="Rectangle-17" fill="url(#linearGradient-1)" transform="translate(4.823993, 8.517949) rotate(-330.000000) translate(-4.823993, -8.517949) " x="3" y="3" width="3.64798548" height="11.0358984" rx="1.82399274"></rect>
+            <rect id="Rectangle-17-Copy" fill="#FC436D" transform="translate(14.000000, 8.000000) rotate(-330.000000) translate(-14.000000, -8.000000) " x="12" y="1" width="4" height="14" rx="2"></rect>
+        </g>
+    </g>
+</svg>

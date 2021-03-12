@@ -1,0 +1,23 @@
+@charset "utf-8";
+.article-page-right { height:auto; overflow:hidden; width:975px; background:#fff; }
+.article-page-right a:hover { text-decoration:none; }
+.article-page-right .article-content, .article-page-right .help_new_list { padding:25px; min-height:800px; }
+.article-page-right h3 { font-size:16px; color:#333; font-weight:normal; }
+.article-page-right .hot_help { padding:10px; margin-top:20px; list-style:none; background-color:#F7F7F7; }
+.article-page-right .hot_help li { height:40px; line-height:40px; padding-left:10px; border-bottom:1px #E6E6E6 solid; color:#666666; font-size:14px; }
+.article-page-right .hot_help li .icon { margin-top:14px; height:13px; width:15px; font-size:0px; margin-right:20px; background-image:url(../images/help/list_bg.jpg); }
+.article-page-right .article-content li { padding-top:10px; cursor:pointer; }
+.article-page-right .article-content li .title { height:40px; border: none medium;  }
+.article-page-right .article-content li .title a:hover { text-decoration:none; }
+.article-page-right .article-content li .title a:link p { height:30px; padding-left:20px; padding-top:10px; font-size:14px; cursor:pointer; background:url(../images/help/title_bg.gif) right no-repeat; background-color:#F7F7F7; }
+.article-page-right .article-content li .title a:visited p { height:30px; padding-left:20px; padding-top:10px; font-size:14px; cursor:pointer; background:url(../images/help/title_bg.gif) right no-repeat; background-color:#F7F7F7; }
+.article-page-right .article-content li .title a:hover p { height:30px; padding-left:20px; padding-top:10px; font-size:14px; cursor:pointer; background:url(../images/help/title_bg.gif) right no-repeat; background-color:#F7F7F7; }
+.article-page-right .article-content li .content { padding:15px 18px; background-color:#FFFFFF; font-size:14px; line-height:180%; color:#666666; border-left:5px #fff3b4 solid; border-right:5px #fff3b4 solid; border-bottom:5px #fff3b4 solid; display:none; }
+.article-page-right .article-content li .content .red { color:#ff0000; }
+.article-page-right .article-content li .content p { padding-bottom:10px; }
+.article-page-right .article-content li .content a { color:#0289cd }
+.article-page-right .article-content li .content a:hover { text-decoration: underline }
+.article-page-right .article-content .on .content { display:block; }.ncinfos{width:204px}
+.article-page-right .article-content .on .title a:link p { background:url(../images/help/title_bg2.gif) right no-repeat; background-color:#fff3b4; color:#FF3764; }
+.article-page-right .article-content .on .title a:visited p { background:url(../images/help/title_bg2.gif) right no-repeat; background-color:#fff3b4; color:#FF3764; }
+.article-page-right .article-content .on .title a:hover p { background:url(../images/help/title_bg2.gif) right no-repeat; background-color:#fff3b4; }

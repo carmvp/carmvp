@@ -1,0 +1,86 @@
+@charset "utf-8";
+/**
+ * 手机端下载页面star !!!
+ */
+.download_app{padding-bottom:20px}
+.download_app .download_banner_top {
+  width: 100%;
+  height: 580px;
+  background: url("../images/banner_top.jpg") no-repeat scroll center top white; }
+.download_app .download_banner_top .down {
+    width: 580px;
+    clear: both;
+    padding: 280px 180px 20px 400px;
+    height: 130px; }
+.download_app .download_banner_top .down img {
+      width: 130px;
+      height: 130px;
+    float: left;
+    margin-top: -58px;
+    margin-left: -360px;	  }
+.download_app .download_banner_top .down .apple_down {
+      height: 55px;
+    width: 200px;
+    float: left;    
+    margin-left: 160px; }
+.download_app .download_banner_top .down .yueyu_down {
+      margin-right: 10px;
+    height: 55px;
+    width: 200px;
+    float: right; }	  
+.download_app .download_banner_top .down .android_down {
+      margin-top: 15px;
+    margin-left: 160px;
+    height: 55px;
+    width: 200px;
+    float: left; }
+.download_app .download_banner_middle {
+  width: 100%;
+  height: 720px;
+  background: url("../images/banner_middle.png") no-repeat scroll center top white; }
+.download_app .download_banner_bottom {
+  width: 100%;
+  height: 420px;
+  background: url("../images/banner_bottom.png") no-repeat scroll center top white; }
+.download_app .wrap {
+  margin: 0 auto;
+  width: 800px; }
+.download_app .download_footer {
+  width: 100%; }.ncinfos{width:204px}
+.download_app .download_footer .content {
+    margin: 50px auto 0;
+    width: 400px; }
+.download_app .download_footer .content .qrcode {
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-left: 10px;
+      border-bottom: 1px solid #ccc; }
+.download_app .download_footer .content .text {
+      height: 102px;
+      margin-left: 50px;
+      float: left; }
+.download_app .download_footer .content h1 {
+      padding-top: 10px;
+      font-size:22px;
+       color:#000	  }
+.download_app .download_footer .content p {
+      color: #666;
+      line-height: 12px;
+      padding-top: 25px; }
+.download_app .download_footer .content .btn {
+      float: left;
+      background-image: url("../images/banner_top.jpg");
+      height: 50px;
+      width: 190px;
+      border-radius: 2px;
+      margin-left: 10px;
+      margin-top: 10px; }
+.download_app .download_footer .content .apple {
+      background-position: -1167px -282px; }
+.download_app .download_footer .content .android {
+      background-position: -1167px -352px; }
+
+/**
+ * 手机端下载页面	end
+ */

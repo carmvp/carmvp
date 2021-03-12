@@ -1,0 +1,500 @@
+.user_center_info .info .user_type,.user_center_info .info .user_type .user_login a{color: #fff;font-weight: 500;font-size: 20px;font-family: PingFangSC-Medium}
+.user_center_info{max-width: 750px;background: url(../images/user_bg.png) no-repeat #f6f6f6;-webkit-background-size: 100% 195px;-moz-background-size: 100% 195px;background-size: 100% 195px;position: relative;z-index: 1;zoom: 1;overflow: hidden}
+.user_center_info .else{position: absolute;zoom: 1;right: 0;top: 12px;z-index: 10;color: #fff}
+.user_center_info .else .more{display: none}
+.user_center_info .else a{position: relative;z-index: 1;zoom: 1;top: 3px;width: 25px;height: 25px}
+.user_center_info .else .set{margin-right: .7rem}
+.user_center_info .info{width: 100%;height: 66px;box-sizing: border-box;padding-left: 15px;position: relative;z-index: 1;zoom: 1;margin-top: 16px}
+.user_center_info .info>div{float: left}
+.user_center_info .info .user_avatar{height: 4.7rem;width: 4.7rem;border-radius: 50%;box-sizing: border-box;position: relative;z-index: 1;zoom: 1}
+.user_center_info .info .user_avatar img{height: 4.7rem;width: 4.7rem;border-radius: 50%;display: block;position: absolute;z-index: 1;zoom: 1;left: 0;bottom: 0;right: 0;top: 0;margin: auto}
+.user_center_info .info .user_type{width: 60%;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;height: 4.7rem;line-height: 4.7rem;margin-left: .7rem}
+.user_center_info .info .user_sign{display: none;width: 4.92rem;height: 24px;background: #fff;border-radius: 100px 0 0 100px;position: absolute;z-index: 1;zoom: 1;right: 0;bottom: 0}
+.user_center_info .info .user_sign a img{position: relative;z-index: 1;zoom: 1;left: 9px;top: 3px;width: 18px;height: 18px}
+.user_center_info .info .user_sign>a span{font-size: 12px;font-family: PingFangSC-Medium;font-weight: 400;color: #2D2125;display: inline-block;position: relative;z-index: 1;zoom: 1;top: 4px;left: 9px}
+.user_center_info .info .user_sign .leakage_sign{display: none;position: absolute;z-index: 1;zoom: 1;top: -12px;right: 6px;width: 50px;height: 12px;background: #fc455d;border-radius: 6px;font-size: 8px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff;line-height: 12px}
+.user_center_info .info .user_sign .leakage_sign .triangle{position: absolute;z-index: 1;zoom: 1;width: 0;height: 0;border-width: 7px 7px 14px 1px;border-style: solid;border-color: #fc455d transparent transparent;bottom: -19px;left: 37px}.ncinfos{width:204px}
+.user_center_info #order-search{display: none}
+.user_center_info .user_main{height: 100%;background: 0 0;margin: 24px 10px}
+.my_integral_box{height: 121px;background: #2d2125;border-radius: 10px;box-sizing: border-box;position: relative;top: -30px;z-index: 9999; padding: 15px 15px 30px 15px;}
+.my_integral_box .my_integral{position: relative;z-index: 1;zoom: 1}
+.my_integral_box .my_integral p{font-size: 11px;font-family: PingFangSC-Light;font-weight: 300;color: #fff;margin-bottom: 6px}
+.my_integral_box .my_integral .integral_explain{position: absolute;z-index: 1;zoom: 1;color: red;left: 50px;top: -1px}
+.my_integral_box .integral_store{display: flex;justify-content: space-between;align-items: center;flex: 1}
+.my_integral_box .integral_store .count{font-size: 26px;font-family: PingFangSC-Semibold;font-weight: 600;color: #d3b983}
+.my_integral_box .integral_store button{width: 76px;height: 29px;border-radius: 16px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;margin-right: 5px}
+.my_integral_box .integral_store .integral_btn{display: none;background: linear-gradient(180deg,#fff0d2 0,#f9dba0 100%);color: #35292b}
+.my_integral_box .integral_store .integral_extract_btn{border: 1px solid #feebc6;color: #fce7bc;background: 0 0}
+.my_integral_box .estimate_integral{margin-top: 6px;display: flex;align-items: center}
+.my_integral_box .estimate_integral p{margin-right: 15px;height: 16px;font-size: 11px;font-family: PingFangSC-Light;font-weight: 300;color: #979797;line-height: 16px}
+.my_integral_box .estimate_integral p:nth-child(3){margin-left: 15px}
+.my_integral_box .estimate_integral .long{width: 1px;height: 11px;background: #979797}
+.user_center_info .user_main .user_me{height: 93px;background: #fff;border-radius: 10px;display: flex;justify-content: space-around;align-items: center;box-sizing: border-box}
+.user_center_info .user_main .user_me>div a{display: flex;align-items: center;flex-direction: column}
+.user_center_info .user_main .user_me>div a img{width: 34px;height: 34px}
+.user_center_info .user_main .user_me>div a span{width: 54px;height: 18px;font-size: 13px;font-family: PingFangSC-Light;font-weight: 300;color: #666;line-height: 18px;display: block}
+.user_center_info .user_main .card{background: #fff;margin-top: 10px}
+.user_center_info .user_main .card .title{height: 35px;border-bottom: 1px solid #EEE;line-height: 35px;padding-left: 15px;box-sizing: border-box;font-size: 14px;font-family: PingFangSC-Medium;font-weight: 500;color: #333}
+#style-5::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);background-color: #F5F5F5;}
+#style-5::-webkit-scrollbar{width:1px;background-color: #F5F5F5;}
+#style-5::-webkit-scrollbar-thumb{background-color: #0ae;background-image: -webkit-gradient(linear, 0 0, 0 100%,color-stop(.5, rgba(255, 255, 255, .2)),color-stop(.5, transparent), to(transparent));}
+.user_center_info .user_main .card .content{box-sizing: border-box;padding: 0 5px;overflow: hidden}
+.user_center_info .user_main .card .content:after{content: '';flex: 1}
+.user_center_info .user_main .card .content div{margin-right: 15px;width: 7.5rem;height: 99px;display: flex;align-items: center;flex-direction: column}
+.user_center_info .user_main .card .content div:nth-last-child(1){margin-right: 0}
+.user_center_info .user_main .card .content div img{width: 4.42rem;height: 62px}
+.user_center_info .user_main .card .content div span{width: 3.85rem;height: 18px;font-size: 13px;font-family: PingFangSC-Light;font-weight: 300;color: #666;line-height: 18px;display: block;margin-top: 5px}
+.user_center_info .user_main .card .content.tools{padding: 13px 0}
+.user_center_info .user_main .card .content.tools:after{content: "";flex: 1}
+.user_center_info .user_main .card .content.tools li{display: flex;justify-content: center;align-items: center;flex-direction: column;height: 67px}
+.user_center_info .user_main .card .content.tools li img{width: 2.07rem;height: 2.07rem;display: block}
+.user_center_info .user_main .card .content.tools li span{width: 54px;height: 18px;font-size: 13px;font-family: PingFangSC-Light;font-weight: 300;color: #666;line-height: 18px;display: block;margin-top: 6px}
+.user_center_info .user_main .activity_center{background: #fff;box-shadow: 0 0 6px -1px rgba(0,0,0,.09);border-radius: 6px}
+.user_center_info .user_main .activity_center .content{display: flex;justify-content: space-around}
+.user_center_info .user_main .activity_center .content .new_active{flex: 1}
+.user_center_info .user_main .activity_center .content:after{content: '';flex: 1}
+.user_center_info .user_main .activity_center .limit_active{position: relative;z-index: 1;zoom: 1}
+.user_center_info .user_main .activity_center .limit_active .new{width: 28px;height: 13px;background: #fa3a4c;border-radius: 9px 8px 10px 0;font-style: none;display: block;font-size: 10px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff;position: absolute;z-index: 1;zoom: 1;left: 76px;top: 2px}
+.user_center_info .user_main .common_tools{background: #fff;box-shadow: 0 0 6px -1px rgba(0,0,0,.09);border-radius: 6px;margin-top: 15px}
+.account_and_safety .ui_nav_list,.user_info_change .ui_nav_list,.user_setting .ui_nav_list{margin-top: 11px}
+.user_setting{min-height: 667px;background: #F6F6F6}
+#exit_login{display: none;padding-left: 0}
+#exit_login p{font-size: 16px;font-family: PingFangSC-Regular;font-weight: 400;color: #fe3a33}
+.account_and_safety .ui_nav_list li,.user_info_change .ui_nav_list li,.user_setting .ui_nav_list li{padding-left: 12px}
+.account_and_safety .ui_nav_list li p,.user_info_change .ui_nav_list li p,.user_setting .ui_nav_list li p{font-family: PingFangSC-Medium;font-weight: 500;color: #4a4a4a}
+.account_and_safety .ui_nav_list li .iconfont,.user_info_change .ui_nav_list li .iconfont,.user_setting .ui_nav_list li .iconfont{color: #888}
+.account_and_safety .ui_nav_list li .item_info,.account_and_safety .ui_nav_list li .zfb_info,.user_info_change .ui_nav_list li .item_info,.user_info_change .ui_nav_list li .zfb_info,.user_setting .ui_nav_list li .item_info,.user_setting .ui_nav_list li .zfb_info{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #4a4a4a;line-height: 17px}
+.account_and_safety .ui_nav_list li:nth-child(1),.user_info_change .ui_nav_list li:nth-child(1),.user_setting .ui_nav_list li:nth-child(1){margin-bottom: 1px}
+.account_and_safety .ui_nav_list li:nth-child(2),.user_info_change .ui_nav_list li:nth-child(2),.user_setting .ui_nav_list li:nth-child(2){margin-bottom: 10px}
+.account_and_safety .ui_nav_list:hover,.user_info_change .ui_nav_list:hover,.user_setting .ui_nav_list:hover{background: #fff}
+.user_info_change{background: #F6F6F6;min-height: 667px}
+.user_info_change .ui_nav_list li:hover{background: #fff}
+.user_info_change .change_user_head_group{height: 160px;background: #fff;position: relative;z-index: 1;zoom: 1}
+.user_info_change .change_user_head_group .user_head{width: 6.42rem;height: 6.42rem;border-radius: 50%;border: 1px solid #ccc;position: absolute;z-index: 1;zoom: 1;top: 0;bottom: 0;left: 0;right: 0;margin: auto}
+.user_info_change .change_user_head_group .user_head img{width: 6.42rem;height: 6.42rem}
+.user_info_change .change_user_head_group .change_user_head{position: absolute;z-index: 1;zoom: 1;left: 0;right: 0;bottom: 14px;margin: auto;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b}
+.user_info_change .user_name_group{display: flex}
+.user_info_change .user_name{border: 0;background: 0 0;flex: 1}
+.user_info_change .user_name_close{position: relative;z-index: 1;zoom: 1;top: 1px;color: #ccc!important;display: none}
+.user_info_change .sex_radio label{font-size: 14px;font-family: PingFangSC-Medium;font-weight: 500;color: #4a4a4a;display: inline-block;width: .9rem;height: .9rem;border-radius: 50%;border: 1px solid #ccc;text-indent: 23px;top: 4px;position: relative;z-index: 1;zoom: 1}
+.user_info_change .sex_radio label:nth-child(4){margin-left: 50px}
+.user_info_change .sex_radio label span{position: relative;z-index: 1;zoom: 1;top: -4px}
+.user_info_change .sex_radio label i{position: absolute;z-index: 1;zoom: 1;top: 0;right: 0;bottom: 0;left: 0;margin: auto;border-radius: 50%;width: 6px;height: 6px}
+.user_info_change .sex_radio input[type=radio]{display: none}
+.user_info_change .sex_radio input[type=radio]:checked+label{border-color: #fe3a33}
+.user_info_change .sex_radio input[type=radio]:checked+label i{background: #fe3a33}
+.account_and_safety{min-height: 667px;background: #F6F6F6}
+.close-class .layui-layer-content,.close-class-msg .layui-layer-content{overflow: initial!important;height: auto!important}
+.close-class .layui-layer-setwin{position: absolute;top: initial;left: 0;right: 0;bottom: -60px;margin: 0 auto;width: 38px;height: 38px}
+.close-class .layui-layer-setwin .layui-layer-close2{position: initial;width: 38px;height: 38px;background: url(../images/close.png) center no-repeat;background-size: 38px 38px}
+.close-class-msg .layui-layer-setwin{position: absolute;width: 16px;height: 16px;right: 10px;top: 10px}
+.close-class-msg .layui-layer-setwin .layui-layer-close2{background: url(../images/close2.png) center no-repeat;background-size: 16px;width: 16px;height: 16px;position: initial}
+.close-class-msg .layui-layer-setwin .layui-layer-close2:after{content: ""}
+body .close-class-msg .layui-layer-btn{display: flex;justify-content: center;padding: 0;margin: 30px 0}
+body .close-class-msg .layui-layer-btn a.layui-layer-btn0{padding: 0;width: 137px;height: 36px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #333;margin: 0 auto;display: block;border-radius: 4px;border: 1px solid #ccc;background: 0 0}
+body .close-class-msg .layui-layer-btn a.layui-layer-btn0:hover{color: #333;background: 0 0}
+.user-layer-get-dialog{width: 285px;height: 180px}
+.user-layer-get-dialog .content{width: 285px;height: 180px;padding-top: 25px;box-sizing: border-box}
+.user-layer-get-dialog .content .today_get{width: 48px;height: 17px;margin: 0 auto 10px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b;line-height: 17px}
+.user-layer-get-dialog .content .integral{height: 39px;font-size: 40px;font-family: PingFangSC-Medium;font-weight: 500;color: #fe3a33;line-height: 39px;margin: 0 auto 24px}
+.user-layer-get-dialog .content .integral i{width: 24px;height: 17px;font-size: 12px;font-family: PingFangSC-Medium;font-weight: 500;color: #4a4a4a;line-height: 17px;font-style: normal;padding-left: 4px}
+.user-layer-get-dialog .content .get button{width: 141px;height: 37px;margin: auto;display: block;background: linear-gradient(270deg,#f9642b 0,rgba(255,52,52,.99) 100%);border-radius: 4px;font-size: 15px;font-family: PingFangSC-Medium;font-weight: 500;color: #fff;line-height: 21px}
+.user-layer-get-dialog .content .msg p{width: 80%;text-align: center;height: 17px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b;line-height: 17px;margin: 5px auto 0}
+.user-layer-get-dialog .content .qd-bg{position: absolute;z-index: 1;zoom: 1;top: -123px}
+.user-layer-get-dialog .content .qd-bg img{width: 280px;height: 131px}
+.user-layer-get-dialog .content .qd-title{position: absolute;z-index: 1;zoom: 1;width: 12.9rem;height: 49px;top: -22px;right: 0;left: 0;margin: 0 auto;background: url(../images/caitiao.png) center no-repeat;background-size: 12.9rem 49px}
+.user-layer-get-dialog .content .qd-title span{width: 60px;height: 21px;font-size: 15px;font-family: PingFangSC-Medium;font-weight: 500;color: #fff;line-height: 30px;display: block;margin: 4px auto 0}
+.user_ewm_dialog>img{width: 240px;height: 240px;padding: 10px;margin: 30px auto;display: block;border: 1px solid}
+.user_ewm_dialog .save_ewm{width: 110px;height: 30px;background: linear-gradient(270deg,#ff4950 0,#fb8d2c 100%);border-radius: 37px;margin: 0 auto 20px;display: block;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff;line-height: 20px}
+.user_ewm_dialog .merge_bg{width: 307px;height: 28px;background: #000;opacity: .5;margin: 0 auto 18px}
+.user_ewm_dialog .merge_bg img{width: 100%;height: 100%}
+.user_ewm_dialog .msg_info{width: 307px;height: 97px;background: #fff;border-radius: 4px;margin: 10px auto 0;display: flex;justify-content: space-around;align-items: center;position: relative;z-index: 1;zoom: 1}
+.user_ewm_dialog .msg_info div{display: flex;flex-direction: column;align-items: center}
+.user_ewm_dialog .msg_info div span{margin-bottom: 4px}
+.user_ewm_dialog .msg_info div span:nth-child(1){width: 20px;height: 20px;border-radius: 50%;line-height: 20px;background: #E6E6E6}
+.user_ewm_dialog .msg_info div span:nth-child(2){display: block;width: 70px;height: 36px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #555;line-height: 18px}
+.user_ewm_dialog .msg_info .border{background: #E6E6E6;position: absolute;zoom: 1;z-index: -1;top: 25px;width: 200px;height: 1px}
+.rule_msg_dialog{box-sizing: border-box;padding-top: 20px}
+.rule_msg_dialog .rule_msg_title{width: 7rem;height: 21px;font-size: 15px;font-family: PingFangSC-Medium;font-weight: 500;color: #000;line-height: 21px;margin: auto}
+.rule_msg_dialog .rule_msg_content{width: 18.57rem;height: 277px;max-height: 277px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b;line-height: 17px;margin: 10px auto;overflow: auto}
+.user_integral_lack_dialog .user_integral_lack_logo{width: 5.14rem;height: 72px;margin: 30px auto 0;overflow: hidden}
+.user_integral_lack_dialog .user_integral_lack_logo img{width: 5.14rem;height: 72px}
+.user_integral_lack_dialog .user_integral_lack_title{width: 9rem;height: 18px;font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 18px;margin: 20px auto 0}
+.user_integral_lack_dialog .get_integral_msg{width: 17.28rem;height: 39px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 19px;margin: 10px auto 0}
+.extra_integral_dialog .extra_integral_logo{width: 10.28rem;height: 10.28rem;margin: 30px auto 0;overflow: hidden}
+.extra_integral_dialog .extra_integral_logo img{width: 10.28rem;height: 10.28rem}
+.extra_integral_dialog .extra_integral_title{height: 18px;font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 18px;margin: 20px auto 0}
+.extra_integral_dialog .get_integral_msg{width: 17.28rem;height: 19px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 19px;margin: 10px auto 0}
+.tb_auth_dialog .tb_auth_logo{width: 5.14rem;height: 5.14rem;margin: 30px auto 0;overflow: hidden}
+.tb_auth_dialog .tb_auth_logo img{width: 5.14rem;height: 5.14rem}
+.tb_auth_dialog .tb_auth_title{width: 13.64rem;height: 18px;font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 18px;margin: 20px auto 0}
+.tb_auth_dialog .get_integral_msg{width: 17.28rem;height: 19px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 19px;margin: 10px auto 0}
+.login_dialog .login_logo{width: 10rem;height: 10rem;margin: 30px auto 0;overflow: hidden}
+.login_dialog .login_logo img{width: 10rem;height: 10rem}
+.login_dialog .login_title{height: 18px;font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 18px;margin: 20px auto 0}
+.login_dialog .get_integral_msg,.login_dialog button,.user_integral_list .integral_hint{font-family: PingFangSC-Regular;font-weight: 400}
+.login_dialog .get_integral_msg{width: 17.28rem;font-size: 14px;color: #999;line-height: 19px;margin: 10px auto 0}
+.login_dialog button{margin: 30px auto;width: 136px;height: 36px;border-radius: 4px;border: 1px solid #ccc;font-size: 14px;color: #333;line-height: 20px;background: 0 0;display: block}
+.user_integral_list{min-height: calc(100vh - 45px);background: #F6F6F6;position: relative;z-index: 1;zoom: 1}
+.user_integral_list .integral_hint{height: 38px;background: #ffefea;font-size: 12px;color: #fe3a33;position: fixed;left: 0;z-index: 99;width: 100%;display: flex;align-items: center;justify-content: space-around}
+.user_integral_list .integral_hint p{height: 38px;line-height: 38px}
+.user_integral_list .integral_hint i{color: #ccc;font-size: 14px}
+.user_integral_list .type_change{z-index: 99;position: fixed;left: 0;width: 100%;height: 50px;background: #fff;line-height: 50px;margin-top: 38px}
+.user_integral_list .type_change .xiajt{width: 0;height: 0;border-width: 7px;border-style: solid;border-color: #D8D8D8 transparent transparent;position: relative;z-index: 1;zoom: 1;top: 11px;left: 4px}
+.user_integral_list .type_change .shade{display: none;width: 100%;height: 100vh;position: fixed;z-index: 999;background: rgba(0,0,0,.3)}
+.user_integral_list .type_change .shade .type_option{height: 0;padding: 0 13px;background: #fff;transition: all .5s;overflow: hidden}
+.user_integral_list .type_change .shade .type_option li{height: 50px;border-top: 1px solid #F2F2F2;font-family: PingFangSC-Medium;font-weight: 500;color: #9b9b9b}
+.user_integral_list .type_change .shade .type_option li.active{color: #4a4a4a}
+.user_integral_list .time_select_box{position: fixed;width: 100%;max-width: 750px;height: 100px;z-index: 90;background: #F5F8FA;padding: 25px 0 0 14px;box-sizing: border-box;margin-top: 88px;display: inline-block}
+.user_integral_list .time_select_box .time_select{height: 25px;font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;color: #4a4a4a;line-height: 25px}
+.user_integral_list .time_select_box .time_select i{position: relative;z-index: 1;zoom: 1;top: -2px;margin-left: 1rem;font-size: 10px;color: #ccc}
+.user_integral_list .time_select_box .integral_msg{height: 18px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 18px;margin-top: 7px}
+.user_integral_list .time_select_box .integral_msg .get{margin-right: 30px}
+.user_integral_list .integral_none{height: 100vh;display: flex;display: none;justify-content: center;align-items: center}
+.user_integral_list .integral_none li{height: 20px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 20px}
+.user_integral_list .integral_lists{position: relative;z-index: 1;zoom: 1;background: #fff;margin-top: 188px}
+.user_integral_list .integral_lists li{height: 80px;border-bottom: 1px solid #F2F2F2;margin: 0 17px 0 14px;padding-top: 20px;box-sizing: border-box;display: flex}
+.msg_inform .msg-open,.msg_inform.open .msg-close{display: none}
+.user_integral_list .integral_lists li .integral_type{width: 2.85rem;height: 2.85rem;border-radius: 50%;overflow: hidden;background-size: 2.85rem 2.85rem}
+.user_integral_list .integral_lists li .integral_type.type1{background: url(../images/integral-list1.png) center no-repeat;background-size: 2.85rem 2.85rem}
+.user_integral_list .integral_lists li .integral_type.type2{background: url(../images/integral-list2.png) center no-repeat;background-size: 2.85rem 2.85rem}
+.user_integral_list .integral_lists li .integral_type.type3{background: url(../images/integral-list3.png) center no-repeat;background-size: 2.85rem 2.85rem}
+.user_integral_list .integral_lists li .integral_type.type4{background: url(../images/integral-list4.png) center no-repeat;background-size: 2.85rem 2.85rem}
+.user_integral_list .integral_lists li .integral_type.type5{background: url(../images/integral-list5.png) center no-repeat;background-size: 2.85rem 2.85rem}
+.user_integral_list .integral_lists li .integral_info{flex: 1;margin-left: 10px;height: 2.85rem}
+.user_integral_list .integral_lists li .integral_info .integral_type_msg{height: 22px;font-size: 16px;font-family: PingFangSC-Regular;font-weight: 400;color: #4a4a4a;line-height: 22px;margin-bottom: 2px}
+.user_integral_list .integral_lists li .integral_info .integral_time{width: 8.64rem;height: 17px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b;line-height: 17px}
+.user_integral_list .integral_lists li .integral_details{height: 22px;font-size: 16px;font-family: PingFangSC-Medium;font-weight: 500;color: #fe3a33;line-height: 22px;text-align: right}
+.user_integral_list .integral_lists li .integral_details.minus{color: #666}
+.user_integral_list .no_list{display: none;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 20px;text-align: center;margin: 20px 0}
+.msg_inform{margin-top: 10px;height: 667px;background: #fff}
+.msg_inform.open .msg_inform_type{background: url(../images/open-msg-info.png) center no-repeat;background-size: 150px 139px}
+.msg_inform.open .msg-open{display: block}
+.msg_inform .msg_inform_type{width: 150px;height: 139px;margin: 109px auto 11px;background: url(../images/close-msg-info.png) center no-repeat;background-size: 150px 139px}
+.msg_inform .msg_inform_title{width: 126px;height: 25px;font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;color: #4a4a4a;line-height: 25px;margin: 0 auto 8px}
+.msg_inform .msg_inform_info{width: 258px;height: 40px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 20px;margin: 0 auto 38px}
+.msg_inform .open_msg_info button{width: 310px;height: 40px;background: #fe3a60;border-radius: 5px;margin: 0 auto;font-size: 16px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff;line-height: 22px}
+.integral_shop_store .integral_show{height: 70px;background: #fff;box-sizing: border-box;padding: 21px 14px;display: flex;justify-content: space-between}
+.integral_shop_store .user_integral{display: flex}
+.integral_shop_store .user_integral>img{width: 27px;height: 27px;margin-right: 7px}
+.integral_shop_store .user_integral .count{font-size: 30px;font-family: ArialMT;color: #4a4a4a;line-height: 28px;display: block;margin-right: 7px}
+.integral_shop_store .user_integral>p span{width: 28px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b;line-height: 28px}
+.integral_shop_store .user_integral>p i{color: #9B9B9B;font-size: 10px;margin-left: 9px}
+.integral_shop_store .get_integral button{width:100px;height: 27px;background: linear-gradient(143deg,#f9642b 0,rgba(255,52,52,.99) 100%);border-radius: 4px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff;line-height: 17px}
+.integral_shop_store .integral_change_money{margin: 0 auto 11px;width: 140px;height: 22px;font-size: 16px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 22px;display: flex;justify-content: space-around}
+.integral_shop_store .product_lists{background: #F6F6F6}
+.integral_shop_store .product_lists .product_list{background: #F6F6F6;overflow: hidden;position: relative;z-index: 1;zoom: 1}
+.integral_shop_store .product_lists .product_list>div{margin: 0 4px 6px 3px;border-radius: 4px;overflow: hidden;position: relative;z-index: 1;zoom: 1}
+.integral_shop_store .product_lists .product_list.product_null .shade_modal{display: block}
+.integral_shop_store .product_lists .product_list .shade_modal{display: none;position: absolute;zoom: 1;width: 100%;height: 100%;overflow: hidden;background: rgba(0,0,0,0);border-radius: 4px;z-index: 99}
+.integral_shop_store .product_lists .product_list.product_null .shade_modal.buy{display: block;}
+.integral_shop_store .product_lists .product_list.product_null .shade_modal.start{background: rgba(113,171,135,0.18);}
+.integral_shop_store .product_lists .product_list .shade_modal .null_msg{width: 46px;height: 46px;line-height: 46px;background: rgba(0,0,0,.9);position: absolute;z-index: 1;zoom: 1;bottom: 10px;right: 9px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff;border-radius: 50%}
+.integral_shop_store .product_lists .product_list .shade_modal.buy .null_msg{background:#fe3a33}
+.integral_shop_store .product_lists .product_list .shade_modal.start .null_msg{background:#2ac064}
+.integral_shop_store .product_lists .product_list .product_img{width: 100%;overflow: hidden}
+.integral_shop_store .product_lists .product_list .product_img img{display: block;width: 100%}
+.integral_shop_store .product_lists .product_list .product_list_info{padding: 7px 10px;background: #fff}
+.integral_shop_store .product_lists .product_list .product_list_info .title{width: 89%;height: 17px;margin: 0 0 10px}
+.integral_shop_store .product_lists .product_list .product_list_info .title .title_info{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;height: 17px;line-height: 17px;display: block;color: #333;-webkit-line-clamp: 2}
+.integral_shop_store .product_lists .product_list .product_list_info .title .title_info .title_logo{width: 14px;height: 14px;margin-right: 3px;position: relative;z-index: 1;zoom: 1;top: -1px}
+.integral_shop_store .product_lists .product_list .product_list_info .master_money{width: 122px;height: 14px;font-size: 10px;font-family: PingFangSC-Regular;font-weight: 400;color: #aaa;margin-bottom: 5px}
+.integral_shop_store .product_lists .product_list .product_list_info .price_integral{height: 26px;font-size: 12px;font-family: PingFangSC-Medium;color: #FC4D52}
+.integral_shop_store .product_lists .product_list .product_list_info .price_integral span{color: #FF2B22;font-size: 16px;font-weight: 600;display: inline-block}
+.integral_shop_store .product_lists .product_list .product_list_info .price_integral .and{margin: 0 3px;width: 8px;font-size: 12px;font-family: PingFangSC-Medium;font-weight: 500;color: #fc4d52}
+.integral_shop_store .product_lists .product_list .product_list_info .price_integral .count{padding: 0 5px;height: 19px;background: rgba(252,77,82,.1);border-radius: 10px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #fc4d52;line-height: 19px}
+.order-search-icon{display: none;position: absolute;zoom: 1;top: 0;right: 10px;color: #ccc;font-style: 25px;z-index: 99;cursor: pointer}
+.user_integral_extract .title i,.user_signin_header .sign_in_btn>div .sign_time i,[user-num] i{font-style: normal}
+.my_order .nav_list{display: none;width: 100%;left: 0;height: 40px;background: #fff;position: fixed;z-index: 99}
+.my_order .nav_list ul{max-width: 750px;margin: auto;display: flex;justify-content: space-around;align-items: center}
+.my_order .nav_list ul li{height: 40px;line-height: 40px;box-sizing: border-box;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b}
+.my_order .nav_list ul li.active{border-bottom: 2px solid #f9642b;color: #FE3A33;font-weight: 500}
+.my_order .order_lists{background: #F5F5F5;margin-top: 50px}
+.my_order .order_lists ul{background: #F5F5F5}
+.my_order .order_lists .order_list{margin: 10px 0;padding: 12px 12px 10px 11px;box-sizing: border-box;background: #fff;box-shadow: 0 0 6px -1px rgba(0,0,0,.09)}
+.my_order .order_lists .order_list.lose .integral span,.my_order .order_lists .order_list.lose .type{color: #999!important}
+.my_order .order_lists .order_list .order p,.my_order .order_lists .order_list .price{font-size: 12px;color: #4a4a4a;font-family: PingFangSC-Regular;font-weight: 400}
+.my_order .order_lists .order_list.integral{height: 160px}
+.my_order .order_lists .order_list.integral .order_detail{border-bottom: 1px solid #F2F2F2}
+.my_order .order_lists .order_list .order{display: flex;margin-bottom: 12px}
+.my_order .order_lists .order_list .order p{height: 17px;line-height: 17px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+.my_order .order_lists .order_list .order button{height: 16px;border-radius: 2px;border: 1px solid rgba(151,151,151,.3);background: #fff;font-size: 10px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b;line-height: 14px;margin-left: 3px}
+.my_order .order_lists .order_list .order .type{flex: 1;height: 17px;font-size: 12px;font-family: PingFangSC-Medium;font-weight: 500;color: #fe3a33;line-height: 17px}
+.my_order .order_lists .order_list .order_detail{display: flex;padding-bottom: 12px}
+.my_order .order_lists .order_list .order_detail .order_detail_img{width: 70px;height: 70px;margin-right: 12px;border-radius: 4px;display: block;overflow: hidden;background: #E0E0E0}
+.my_order .order_lists .order_list .order_detail .order_detail_img img{width: 70px;height: 70px}
+.my_order .order_lists .order_list .order_detail .title{width: 252px;height: 20px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #000;line-height: 20px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-bottom: 6px}
+.my_order .order_lists .order_list .order_detail .order_time{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 17px}
+.my_order .order_lists .order_list .price_integral{padding: 10px 0;display: flex;justify-content: space-between}
+.my_order .order_lists .order_list .price_integral div{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #4a4a4a}
+.my_order .order_lists .order_list .price_integral .integral span{color: #fe3a33;font-weight: 500}
+.my_order .order_null p,.user_signin_header .my_integral,.user_signin_header .title{font-weight: 400;font-family: PingFangSC-Regular}
+.my_order .order_null{display: none;position: absolute;top: 20px;left: 0;width: 100%;height: 100vh;background: #EBF0F5;box-sizing: border-box;padding-top: 193px}
+.my_order .order_null p{margin: 10px auto;width: 58px;height: 20px;font-size: 14px;color: #999;line-height: 20px}
+.my_order .order_null img{width: 150px;height: 139px;display: block;margin: auto}
+.user_signin_header{box-sizing: border-box;width: 100%;max-width: 750px;margin: auto;background: url(../images/sigin-bg.png) center no-repeat;background-size: 100% 100%;padding: 0 10px 50px}
+.user_signin_header .title{height: 45px;line-height: 45px;text-align: center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 18px;color: #fff;position: relative;z-index: 1;zoom: 1}
+.user_signin_header .title a{position: absolute;z-index: 1;zoom: 1;left: 0}
+.user_signin_header .integral-and-signin_rule{margin-top: 22px;display: flex;justify-content: space-between}
+.user_signin_header .my_integral{height: 18px;font-size: 12px;color: #fff;line-height: 18px}
+.user_signin_header .my_integral a{color: #fff}
+.user_signin_header .my_integral span{font-size: 14px;font-weight: 500}
+.user_signin_header .my_integral i{position: relative;z-index: 1;zoom: 1;top: -1px;left: 3px;font-size: 10px}
+.user_signin_header .signin_rule{width: 64px;height: 20px;background: rgba(255,255,255,.2);border-radius: 46px 40px 40px 46px;font-size: 11px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff;line-height: 12px;padding: 0;margin-bottom: 8px}
+.user_signin_header .sign_in_btn{width: 116px;height: 116px;background: rgba(255,255,255,.3);border-radius: 50%;margin: 0 auto 10px;position: relative;z-index: 1;zoom: 1}
+.user_signin_header .sign_in_btn .add_integral{display: none;padding: 0 10px;height: 25px;background: #fff;box-shadow: 0 2px 5px 0 rgba(190,2,2,.5);font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #35292b;line-height: 24px;border-radius: 20px;position: absolute;z-index: 1;zoom: 1;top: 12px;right: -35px}
+.user_signin_header .sign_in_btn .add_integral .triangle{position: absolute;z-index: 1;zoom: 1;width: 0;height: 0;border-width: 10px 10px 12px 1px;border-style: solid;border-color: #fff transparent transparent;bottom: -19px;left: 7px}
+.user_signin_header .sign_in_btn>div{position: absolute;z-index: 1;zoom: 1;left: 0;top: 0;right: 0;bottom: 0;width: 100px;height: 100px;background: linear-gradient(180deg,#fff0d2 0,#f9dba0 100%);border-radius: 50%;margin: auto;display: flex;justify-content: center;flex-direction: column}
+.user_signin_header .sign_in_btn>div span{display: block}
+.user_signin_header .sign_in_btn>div .sign_in{font-size: 22px;font-family: PingFangSC-Medium;font-weight: 500;color: #35292b;line-height: 30px}
+.user_signin_header .sign_in_btn>div .signed_in{font-size: 14px;font-family: PingFangSC-Medium;font-weight: 500;color: #857668;line-height: 20px}
+.user_signin_header .sign_in_btn>div .sign_time{display: none;font-weight: 500;color: #35292b;font-family: PingFangSC-Medium}
+.user_signin_header .sign_in_btn>div .sign_time .sign_crount_time{font-size: 28px;width: 17px;height: 40px;line-height: 40px}
+.user_signin_header .sign_in_btn>div .sign_time .sky{position: relative;z-index: 1;zoom: 1;top: -2px;height: 30px;font-size: 22px;line-height: 30px}
+.user_signin_header .award{display: none;margin: 0 auto 8px;width: 211px;height: 23px;line-height: 23px;background: rgba(0,0,0,.2);border-radius: 46px 40px 40px 46px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff}
+.user_signin{padding: 0 10px;position: relative;z-index: 1;zoom: 1;top: -50px}
+.user_signin .signin_info{padding: 10px;height: 120px;background: #fff;border-radius: 10px;overflow: hidden;position: relative;z-index: 1;zoom: 1}
+.user_signin .signin_info .transverse{position: absolute;z-index: 1;zoom: 1;left: 0;right: 0;top: 0;bottom: 0;margin: auto 10PX;display: block;height: 1px;background: #EDEBEB}
+.user_signin .signin_info .signin_time li.check div,.user_signin .signin_info .signin_time li.today div{background: #fe3a33;line-height: 36px}
+.user_signin .signin_info .title{height: 20px;font-size: 14px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 20px}
+.user_signin .signin_info .signin_time{display: flex;justify-content: space-around;position: relative;z-index: 1;zoom: 1;top: 23px}
+.user_signin .signin_info .signin_time li{display: flex;flex-direction: column;align-items: center}
+.user_signin .signin_info .signin_time li.check div span{display: none;font-size: 16px;font-weight: 500;color: #fff}
+.user_signin .signin_info .signin_time li.check div i{color: #fff;display: inline}
+.user_signin .signin_info .signin_time li.check>span{color: #4A4A4A}
+.user_signin .signin_info .signin_time li.today div span{font-size: 16px;font-weight: 500;color: #fff}
+.user_signin .signin_info .signin_time li.today>span{color: #4A4A4A}
+.user_signin .signin_info .signin_time li.yesterday div{line-height: 36px;background: rgba(254,58,51,.5)}
+.user_signin .signin_info .signin_time li.yesterday div span{font-size: 16px;font-weight: 500;color: #fff}
+.user_signin .signin_info .signin_time li.yesterday>span{color: #4A4A4A}
+.user_signin .signin_info .signin_time li div{width: 34px;height: 34px;background: #EDEBEB;border-radius: 50%;line-height: 34px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b}
+.user_signin .signin_info .signin_time li div i{display: none}
+.user_signin .signin_info .signin_time li>span{height: 17px;font-size: 12px;font-family: PingFangSC-Light;font-weight: 300;color: #9B9B9B;line-height: 17px;margin-top: 10px}
+.user_signin .recommend{margin: 20px auto 0;width: 140px;height: 22px;font-size: 16px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 22px;display: flex;justify-content: space-around}
+.user_signin .no_product,.user_signin .shop_signin{font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b}
+.user_signin .shop_signin{text-align: center;width: 70px;height: 16px;font-size: 11px;line-height: 16px;margin: 0 auto 10px}
+.user_signin .no_product{width: 72px;height: 17px;font-size: 12px;line-height: 17px;margin: 6px auto}
+.user_customer_serve .exclusive_serve{height: 120px;background: #fff;display: flex;padding: 0 24px;justify-content: space-between;align-items: center;margin-bottom: 11px}
+.user_customer_serve .exclusive_serve_title{font-family: PingFangSC-Medium;color: #4a4a4a}
+.user_customer_serve .exclusive_serve_title p{font-size: 20px;font-weight: 500;line-height: 28px;margin-bottom: 4px}
+.user_customer_serve .exclusive_serve_title span{font-size: 14px;font-weight: 400;line-height: 20px;color: #929292}
+.user_customer_serve .exclusive_serve_logo{width: 90px;height: 90px;background: url(../images/customer-serve.png) no-repeat;background-size: 90px 90px}
+.user_customer_serve .customer_serve_lists{background: #fff;box-shadow: 0 0 6px -1px rgba(0,0,0,.09)}
+.user_customer_serve .customer_serve_lists li{box-sizing: border-box;height: 87px;margin: 0 12px;border-bottom: 1px solid #e6e6e6;display: flex;align-items: center;padding-left: 5px}
+.user_customer_serve .customer_serve_lists li:nth-last-child(1){border-bottom: none}
+.user_customer_serve .customer_serve_lists li.qq .serve_logo{background: url(../images/serve-qq.png) center no-repeat;background-size: 29px 29px}
+.user_customer_serve .customer_serve_lists li.wx .serve_logo{background: url(../images/serve-wx.png) center no-repeat;background-size: 29px 29px}
+.user_customer_serve .customer_serve_lists li.phone .serve_logo{background: url(../images/serve-phone.png) center no-repeat;background-size: 29px 29px}
+.user_customer_serve .customer_serve_lists li.ewm .serve_logo{background: url(../images/serve-ewm.png) center no-repeat;background-size: 29px 29px}
+.user_customer_serve .customer_serve_lists li .serve_logo{width: 29px;height: 29px;margin-right: 20px}
+.user_customer_serve .customer_serve_lists li .serve_info p{font-size: 15px;font-family: PingFangSC-Medium;font-weight: 500;color: #4a4a4a;line-height: 21px}
+.user_customer_serve .customer_serve_lists li .serve_info span{font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b;line-height: 20px}
+.user_customer_serve .customer_serve_lists li .serve_info .copy_serve_info{display: inline-block;padding: 0 10px;height: 21px;background: linear-gradient(270deg,rgba(249,100,43,.1) 0,rgba(255,52,52,.1) 100%);border-radius: 76px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #fe3a33;line-height: 21px;margin-left: 10px}
+.user_customer_serve .hint_info{width: 348px;height: 17px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #9b9b9b;line-height: 17px;margin: 35px auto 10px}
+.user_customer_serve .save_ewm{width: 320px;margin: 10px auto}
+.user_customer_serve .save_ewm .ewm{width: 320px;height: 320px;box-sizing: border-box;padding: 10px;background: #fff;box-shadow: 0 0 6px -1px rgba(0,0,0,.09);border-radius: 4px}
+.user_customer_serve .save_ewm .ewm img{width: 100%;height: 100%;border-radius: 4px}
+.user_customer_serve .save_ewm .save_ewm_btn{width: 320px;height: 48px;background: linear-gradient(270deg,#ff4950 0,#fb8d2c 100%);border-radius: 4px;margin: 10px auto;font-size: 15px;font-family: PingFangSC-Medium;font-weight: 500;color: #fff;line-height: 21px}
+.user_customer_serve .save_ewm .msg_info{width: 320px;height: 97px;background: #fff;box-shadow: 0 0 6px -1px rgba(0,0,0,.09);border-radius: 4px;margin: 10px auto 0;display: flex;justify-content: space-around;align-items: center;position: relative;z-index: 1;zoom: 1}
+.user_customer_serve .save_ewm .msg_info div{display: flex;flex-direction: column;align-items: center}
+.user_customer_serve .save_ewm .msg_info div span{margin-bottom: 4px}
+.user_customer_serve .save_ewm .msg_info div span:nth-child(1){width: 20px;height: 20px;border-radius: 50%;line-height: 20px;background: #E6E6E6}
+.user_customer_serve .save_ewm .msg_info div span:nth-child(2){display: block;width: 70px;height: 36px;font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #555;line-height: 18px}
+.user_customer_serve .save_ewm .msg_info .border{background: #E6E6E6;position: absolute;zoom: 1;z-index: -1;top: 25px;width: 200px;height: 1px}
+.tb_accredit{height: 100vh;background: #fff;margin-top: 20px}
+.tb_accredit .tb_logo{background: url(../images/taobao.png) center no-repeat;background-size: 72px 72px;width: 72px;height: 72px;border-radius: 50%;margin: 30px auto 20px}
+.tb_accredit .title{width: 72px;height: 18px;font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 18px;margin: auto}
+.tb_accredit .msg{width: 257px;height: 41px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 20px;margin: 10px auto}
+.tb_accredit .msg span{color: #000;font-size: 30px;position: relative;z-index: 1;zoom: 1;top: 4px;left: 2px}
+.tb_accredit .modal .info,.tb_accredit .modal button{font-size: 14px;color: #fff;font-family: PingFangSC-Regular;font-weight: 400}
+.order_search .search_close,.tb_accredit .modal,.tb_accredit .modal .info,.tb_accredit .modal button,.tb_accredit .modal i{position: absolute;z-index: 1;zoom: 1}
+.tb_accredit .modal{max-width: 750px;width: 100%;height: 100%;background: rgba(0,0,0,.6);box-shadow: 0 0 6px -1px rgba(0,0,0,.09);top: 0;bottom: 0;margin: auto}
+.tb_accredit .modal .info{width: 130px;height: 40px;line-height: 20px;top: 103px;right: 6px}
+.tb_accredit .modal button{width: 77px;height: 26px;border-radius: 4px;border: 1px solid #fff;line-height: 16px;background: 0 0;top: 153px;right: 23px}
+.tb_accredit .modal i{background: url(../images/jt.png) center no-repeat;width: 28px;height: 49px;background-size: 28px 49px;display: block;right: 20px;top: 50px}
+#save{color: #9B9B9B}
+.order_search .search_close{top: 9px;right: 80px;color: #ccc!important;display: none}
+.order_search .order_search_group .search_group{height: 165px;background: #fff;padding: 20px 15px 15px;box-sizing: border-box}
+.order_search .order_search_group .search_group .icon{margin: 0 auto 22px;width: 72px;height: 72px;background: linear-gradient(133deg,#f9642b 0,rgba(255,52,52,.99) 100%);border-radius: 59px;position: relative;z-index: 1;zoom: 1}
+.order_search .order_search_group .search_group .icon i{position: absolute;z-index: 1;zoom: 1;width: 35px;height: 35px;left: 0;right: 0;top: 0;bottom: 0;margin: auto;font-size: 35px;color: #fff;display: block}
+.order_search .order_search_group .search_group .search{height: 36px;background: #fff;border-radius: 4px;display: flex;position: relative}
+.order_search .order_search_group .search_group .search input{flex: 1;height: 34px;border: 1px solid #ccc;border-right: 0;padding-left: 9px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #4a4a4a;line-height: 20px;border-radius: 4px 0 0 4px}
+.order_search .order_search_group .search_group .search button{width: 5.42rem;height: 36px;background: linear-gradient(133deg,#f9642b 0,rgba(255,52,52,.99) 100%);border-radius: 0 4px 4px 0;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #fff;line-height: 20px}
+.order_search .order_search_group .order_num{padding: 10px;background: #fff;margin: 10px}
+.order_search .order_search_group .order_num .title{font-size: 13px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 18px;border-bottom: 1px solid #F2F2F2;padding-bottom: 10px;margin: 0 8px}
+.order_search .order_search_group .order_num .step{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #666;line-height: 17px;margin: 9px 0;position: relative;z-index: 1;zoom: 1;left: 7px}
+.order_search .order_search_group .rule_img{width: 222px;margin-left: 18px}
+.order_search .order_search_group .rule_img img{width: 222px}
+.order_search .order_search_group .rule_msg{padding: 0 18px;margin-bottom: 18px}
+.order_search .order_search_group .rule_msg .title{font-size: 13px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 18px;margin-bottom: 6px}
+.order_search .order_search_group .rule_msg .msg{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #666;line-height: 17px}
+.order_search .order_search_result{margin: 10px 0;background: #fff}
+.order_search .order_search_result .order_null{display: none;padding: 20px 10px;height: calc(100vh - 55px);overflow: hidden}
+.order_search .order_search_result .order_null .logo{width: 150px;height: 139px;box-sizing: border-box;margin: 21px auto 10px}
+.order_search .order_search_result .order_null .logo img{width: 150px;height: 139px}
+.order_search .order_search_result .order_null .msg{margin: 0 auto 10px;width: 108px;height: 25px;font-size: 18px;font-family: PingFangSC-Medium;font-weight: 500;color: #4a4a4a;line-height: 25px}
+.order_search .order_search_result .order_null .info{height: 130px;background: #f6f6f6;border-radius: 10px;padding: 16px 20px}
+.order_search .order_search_result .order_null .info .title{height: 20px;font-size: 14px;font-family: PingFangSC-Medium;font-weight: 500;color: #666;line-height: 20px;margin-bottom: 9px}
+.order_search .order_search_result .order_null .info .step{font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #666;line-height: 20px;margin-bottom: 20px}
+.order_search .order_search_result .order_list{background: #F5F5F5}
+.order_search .order_search_result .order_list .list{padding: 16px 13px 0 12px;height: 138px;background: #fff}
+.order_search .order_search_result .order_list .list .title{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #000;line-height: 20px;margin-bottom: 10px}
+.order_search .order_search_result .order_list .list .order_detail{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 17px}
+.confirm-dialog .get_order_dialog .title,.order_search_btn{font-family: PingFangSC-Medium;font-weight: 500}
+.order_search_btn{width: 320px;height: 48px;background: linear-gradient(270deg,#ff4950 0,#fb8d2c 100%);border-radius: 4px;display: block;margin: 20px auto auto;font-size: 15px;color: #fff;line-height: 21px}
+.confirm-dialog{border-radius: 8px!important}
+.confirm-dialog .get_order_dialog .title{width: 216px;height: 18px;font-size: 18px;color: #333;line-height: 18px;margin: 30px auto 10px}
+.confirm-dialog .get_order_dialog .info,.shoop_jump .tkl{font-family: PingFangSC-Regular;font-weight: 400}
+.confirm-dialog .get_order_dialog .info{width: 258px;height: 19px;font-size: 14px;color: #999;line-height: 19px;margin: auto}
+.confirm-dialog .layui-layer-btn{display: flex;padding: 0;border-top: 1px solid rgba(151,151,151,.2)!important}
+.confirm-dialog .layui-layer-btn a{height: 40px;line-height: 40px!important;border-radius: 0!important;width: 50%;padding: 0;margin: 0;background: 0 0!important;border: none!important;color: #FE3A33!important}
+.shoop_jump .bg,.shoop_jump .bg img{width: 100%;height: 224px}
+.confirm-dialog .layui-layer-btn .layui-layer-btn0{color: #999!important;border-right: 1px solid rgba(151,151,151,.2)!important}
+.shoop_jump .bg{margin-bottom: 20px}
+.shoop_jump .tkl{width: 320px;height: 64px;border-radius: 4px;border: 1px solid #ccc;margin: 0 auto 30px;font-size: 16px;color: #4a4a4a;line-height: 22px;line-height: 64px}
+.shoop_jump .copy{width: 320px;height: 48px;background: linear-gradient(270deg,#ff4950 0,#fb8d2c 100%);border-radius: 4px;margin: 0 auto 10px;font-size: 15px;font-family: PingFangSC-Medium;font-weight: 500;color: #fff;line-height: 21px;display: block}
+.integral_extract .use_integral .use_integral_num p,.shoop_jump .info,.user_integral_extract .title,.user_integral_extract .title i:nth-child(2){font-family: PingFangSC-Regular;font-weight: 400}
+.shoop_jump .info{width: 180px;height: 17px;font-size: 12px;color: #999;line-height: 17px;margin: auto}
+.user_integral_extract{height: 257px;background: url(../images/integral-extract-bg.png) center no-repeat;background-size: 100% 257px}
+.user_integral_extract .title{height: 45px;line-height: 45px;text-align: center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 18px;color: #fff;position: relative;z-index: 1;zoom: 1}
+.user_integral_extract .title i{position: absolute;z-index: 1;zoom: 1}
+.user_integral_extract .title i:nth-child(1){left: 10px;font-size: 17px}
+.user_integral_extract .title i:nth-child(2){top: 0;bottom: 0;right: 10px;margin: auto;width: 58px;height: 20px;font-size: 14px;color: #fff;line-height: 20px}
+.integral_extract{width: 100%;max-width: 750px;margin: auto;height: 600px;position: absolute;z-index: 1;zoom: 1;top: 59px;left: 0;right: 0;box-sizing: border-box;padding: 0 10px}
+.integral_extract .use_integral{padding: 10px 12px;box-sizing: border-box;height: 94px;background: #fff;border-radius: 10px;margin-bottom: 10px}
+.integral_extract .use_integral .use_integral_num{display: flex;justify-content: space-between;align-items: center}
+.integral_extract .use_integral .use_integral_num p{font-size: 14px;color: #4a4a4a;line-height: 20px}
+.integral_extract .use_integral .use_integral_num .count{font-size: 25px;font-family: PingFangSC-Semibold;font-weight: 600;color: #000;line-height: 36px;margin-left: 9px;width: 12px;height: 12px}
+.integral_extract .use_integral .use_integral_num .use_integral_num_msg{color: #9b9b9b}
+.integral_extract .use_integral .use_integral_info{width: 223px;height: 20px;background: #f8f8f8;border-radius: 3px;box-sizing: border-box;padding: 2px 0 2px 7px;font-size: 11px;font-family: PingFangSC-Regular;font-weight: 400;color: #7f7f80;margin-top: 10px;position: relative;z-index: 1;zoom: 1}
+.integral_extract .use_integral .use_integral_info .triangle{position: absolute;z-index: 1;zoom: 1;width: 0;height: 0;border-width: 6px;border-style: solid;border-color: transparent transparent #f8f8f8;top: -12px;left: 8px;display: block}
+.integral_extract .extract_num_group{height: 143px;background: #fff;border-radius: 10px;margin-bottom: 10px;box-sizing: border-box;padding: 20px 18px}
+.integral_extract .extract_num_group .extract_num_title{width: 58px;height: 20px;font-size: 14px;font-family: PingFangSC-Medium;font-weight: 500;color: #333;line-height: 20px;margin-bottom: 16px}
+.integral_extract .extract_num_group .extract_num{display: flex;justify-content: space-between;align-items: center;border-bottom: 1px solid #EEE;box-sizing: border-box;padding: 2px 0;margin-bottom: 8px}
+.integral_extract .extract_num_group .extract_num span{width: 21px;height: 46px;font-size: 33px;font-family: PingFangSC-Semibold;font-weight: 600;color: #000;line-height: 46px;margin-right: 10px}
+.integral_extract .extract_num_group .extract_num input{flex: 1;height: 46px;width: 169px;font-size: 33px;font-family: PingFangSC-Semibold;font-weight: 600;color: #000;border: none}
+.integral_extract .extract_num_group .extract_num input::-webkit-input-placeholder{color: #ccc;font-size: 24px;font-family: PingFangSC-Regular;font-weight: 400;line-height: 46px}
+.integral_extract .extract_num_group .extract_num i,.integral_extract .info{font-size: 12px;line-height: 17px;font-family: PingFangSC-Regular;font-weight: 400}
+.integral_extract .extract_num_group .extract_num i{font-style: normal;color: #fe3a33}
+.integral_extract .extract_num_group .extract_num_info{display: flex;justify-content: space-between}
+.integral_extract .extract_num_group .extract_num_info p,.integral_extract .extract_num_group .extract_num_info span{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;color: #666;line-height: 17px}
+.integral_extract .info{height: 17px;color: #4a90e2;margin-left: 18px;margin-bottom: 30px}
+.integral_extract .extract{display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px}
+.integral_extract .extract p{font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 20px;margin-left: 15px}
+.integral_extract .extract button{height: 20px;background: rgba(254,58,51,.1);border-radius: 46px 40px 40px 46px;font-size: 11px;font-family: PingFangSC-Regular;font-weight: 400;color: #fe3a33;margin-right: 10px;line-height: 9px}
+.integral_extract .zfb_account{height: 112px;background: #fff;border-radius: 10px;padding: 7px 15px 5px;box-sizing: border-box;margin-bottom: 57px}
+.integral_extract .zfb_account.hide{display: none}
+.integral_extract .zfb_account.show{display: block}
+.integral_extract .zfb_account li{height: 50px;display: flex;align-items: center}
+.integral_extract .zfb_account li span{width: 70px;height: 20px;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #4a4a4a;line-height: 20px;display: block;margin-right: 20px}
+.integral_extract .zfb_account li input{flex: 1}
+.integral_extract .zfb_account li:nth-child(1){border-bottom: 1px solid #F7F7F7}
+.integral_extract .submit_extract{display: block;width: 320px;height: 48px;background: #ccc;border-radius: 4px;font-size: 15px;font-family: PingFangSC-Medium;font-weight: 500;color: #fff;line-height: 21px;margin: auto}
+.user_extract_list .extract_sum{height: 100px;background: #fff;margin: 10px 0;padding-top: 16px;box-sizing: border-box}
+.user_extract_list .extract_sum p{font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #4a4a4a}
+.user_extract_list .extract_sum .sum{font-size: 35px;font-weight: 600;color: #000;letter-spacing: 1px}
+.user_extract_list .extract_lists{padding: 0 12px 0 13px;background: #fff}
+.user_extract_list .extract_lists li{border-bottom: 1px solid #F2F2F2;height: 80px;display: flex;align-items: center}
+.user_extract_list .extract_lists li .user_account{font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #4a4a4a;line-height: 20px}
+.user_extract_list .extract_lists li .extract,.user_extract_list .extract_lists li .time{font-size: 12px;font-family: PingFangSC-Regular;font-weight: 400;line-height: 17px}
+.user_extract_list .extract_lists li .time{color: #9b9b9b}
+.user_extract_list .extract_lists li .sum{font-size: 16px;font-family: PingFangSC-Medium;font-weight: 500;color: #fe3a33;line-height: 22px}
+.user_extract_list .extract_lists li .success{color: #4a90e2}
+.user_extract_list .extract_lists li .error{color: #999}
+.user_extract_list .no_list{display: none;font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #999;line-height: 20px;text-align: center;margin: 20px 0}
+.user_extract_list .no-extract-list{display: none;background: #fff;height: calc(100vh - 120px);text-align: center;margin-top: 10px;font-weight: 400;line-height: 400px;color: #999}
+.zfb_bind .info,.zfb_bind input{line-height: 20px;height: 20px;font-family: PingFangSC-Regular;font-weight: 400}
+.zfb_bind{margin-top: 10px}
+.zfb_bind ul{background: #fff}
+.zfb_bind li{padding-left: 12px;border-bottom: 1px solid #f6f6f6;position: relative;z-index: 1;zoom: 1}
+.zfb_bind li:hover{background: #fff}
+.zfb_bind .info{font-size: 14px;color: #4a4a4a}
+.zfb_bind input{width: 182px;border: none;background: 0 0}
+.zfb_bind input:-webkit-input-placeholder{color: #ccc;font-size: 14px}
+.zfb_bind .phone{color: #4A4A4A}
+.zfb_bind .get-yzm{height: 20px;background: rgba(254,58,51,.1);border-radius: 46px 40px 40px 46px;font-size: 11px;font-family: PingFangSC-Regular;font-weight: 400;color: #fe3a33;line-height: 9px;right: 5px}
+.zfb_bind .to_bind{width: 320px;height: 48px;background: linear-gradient(270deg,#ff4950 0,#fb8d2c 100%);border-radius: 4px;font-size: 15px;font-family: PingFangSC-Medium;font-weight: 500;color: #fff;line-height: 21px;margin: 40px auto;display: block}
+.zfb_bind li .input_msg,.zfb_bind li .input_msg2{position: absolute;left: 0;top: 100%;z-index: 1;opacity: 0;margin-left: 85px;zoom: 1;color: #FC3F78}
+.zfb_bind li .input_msg{font-size: 1rem;text-indent: 2rem;transition: all .4s ease-out 0s;-o-transition: all .4s ease-out 0s;-moz-transition: all .4s ease-out 0s;-webkit-transition: all .4s ease-out 0s;transform-origin: center;-webkit-transform: translateY(-10px) translateX(0);transform: translateY(-10px) translateX(0);line-height: 1.8rem}
+.zfb_bind li .input_msg.password{line-height: 1.2rem;padding-left: 2rem;text-indent: 0;font-size: 12px}
+.zfb_bind li .input_msg2{font-size: 1rem;text-indent: 2rem;transition: all .4s ease-out 0s;-o-transition: all .4s ease-out 0s;-moz-transition: all .4s ease-out 0s;-webkit-transition: all .4s ease-out 0s;transform-origin: center;-webkit-transform: translateY(-10px) translateX(0);transform: translateY(-10px) translateX(0);line-height: 1.8rem}
+.zfb_bind li .input_msg2.password{line-height: 1.2rem;padding-left: 2rem;text-indent: 0;font-size: 12px}
+.zfb_bind li[error=true]{border-color: #FC3F78;z-index: 10;margin-bottom: 1.8rem}
+.zfb_bind li[error=true] .input_msg{opacity: 1;-webkit-transform: translateY(5px) translateX(0);transform: translateY(5px) translateX(0)}
+.zfb_bind li[error=true] .inputtext{margin: 0 0 0 2rem;position: relative;z-index: 1;zoom: 1}
+.zfb_bind li[error=true] .inputtext input{color: #FC3F78}
+.zfb_bind li[error2=true]{border-color: #FC3F78;z-index: 10;margin-bottom: 1.8rem}
+.zfb_bind li[error2=true] .input_msg2{opacity: 1;-webkit-transform: translateY(5px) translateX(0);transform: translateY(5px) translateX(0)}
+.zfb_bind li[error2=true] .inputtext{margin: 0 0 0 2rem;position: relative;z-index: 1;zoom: 1}
+.zfb_bind li[error2=true] .inputtext input{color: #FC3F78}
+.extract_integral_msg{background: #fff;padding: 20px;min-height: 100vh;overflow: hidden}
+.extract_integral_msg p{font-size: 14px;font-family: PingFangSC-Regular;font-weight: 400;color: #333;line-height: 24px}
+body{background: #F5F5F5}
+.user_forme_tab_checked{border-bottom: solid 1px #eee;height: 0;overflow: hidden;transition: all .4s ease-out 0s;-o-transition: all .4s ease-out 0s;-moz-transition: all .4s ease-out 0s;-webkit-transition: all .4s ease-out 0s;transform-origin: center}
+.user_forme_tab_checked .iconfont{width: 3.7rem;text-align: center;font-size: 1.4rem;float: left}
+.user_forme_tab_checked .iconfont:before{content: "\e65c";color: #aaa}
+.user_forme_tab_checked input{display: none}
+.user_forme_tab_checked input[type=checkbox]:checked+.iconfont:before{content: "\e716";color: #FC3F78}
+.user_forme_tab_checked *{transition: all .4s ease-out 0s;-o-transition: all .4s ease-out 0s;-moz-transition: all .4s ease-out 0s;-webkit-transition: all .4s ease-out 0s;transform-origin: center;opacity: 0;-webkit-transform: translateY(0) translateX(-40px);transform: translateY(0) translateX(-40px);display: inline-block}
+.user_forme_tab_checked.active{padding: .6rem 0;height: auto}
+.user_forme_tab_checked.active *{opacity: 1;-webkit-transform: translateY(0) translateX(0);transform: translateY(0) translateX(0)}
+.user_goods_list li{background: #fff;-o-transition: all .4s ease .4s;-moz-transition: all .4s ease .4s;-webkit-transition: all .4s ease .4s;transform-origin: center}
+.user_goods_list li div.cent .but{padding-top: 1.7rem;margin-right: .7rem}
+.user_goods_list li div.cent .but .btn{border-radius: 10rem;-moz-border-radius: 10rem;-webkit-border-radius: 10rem;-o-border-radius: 10rem;-ms-border-radius: 10rem}
+.user_goods_list li .img{position: relative;z-index: 1;zoom: 1;overflow: hidden}
+.user_goods_list li .img .end_time,.user_goods_list li .img .msg{position: absolute;zoom: 1;z-index: 5;left: 0;width: 100%;background: rgba(0,0,0,.5);color: #fff;text-align: center}
+.user_goods_list li .img .msg{line-height: 8.5rem;top: 0;height: 100%}
+.user_goods_list li .img .end_time{line-height: 25px;bottom: 0;height: 25px}
+.user_goods_list .default_msg{height: 50vh;padding: 0}
+.user_goods_list .default_msg .text-center{padding-top: 1rem}
+.user_goods_list .default_msg .text-center .btn{border-radius: 50px}
+.user_coll_h3{text-align: center;padding: 1rem 0}
+.user_coll_h3 span{display: inline-block;position: relative;z-index: 1;zoom: 1;font-size: 1.1rem;color: #FC3F78}
+.user_coll_h3 span em,.user_coll_h3 span em:before{position: absolute;z-index: 1;display: inline-block;zoom: 1}
+.user_coll_h3 span i.iconfont{font-size: 1.3rem}
+.user_coll_h3 span em{width: 50%;left: -55%;top: 50%;height: 1px;text-align: right;border-top: solid 1px #FC3F78}
+.user_coll_h3 span em:before{content: "";width: 3px;height: 3px;top: -2px;border-radius: 100px;-moz-border-radius: 100px;-webkit-border-radius: 100px;-o-border-radius: 100px;-ms-border-radius: 100px;background: #FC3F78;right: 0;overflow: hidden}
+.user_coll_h3 span em.r{left: 105%}
+.user_coll_h3 span em.r:before{left: 0;right: auto}
+.user_coll_h3.two span{color: #888}
+.user_coll_h3.two span em{border-top: solid 1px #888}
+.user_coll_h3.two span em:before{background: #888}
+.user_coll_main{background: #F5F5F5}
+.user_coll_bottom{position: fixed;zoom: 1;bottom: 0;left: 0;width: 100%;height: 3.5rem;background: #fff;z-index: 300;line-height: 3.5rem;-webkit-transform: translateY(100px) translateX(0);transform: translateY(100px) translateX(0);transition: all .4s ease-out 0s;-o-transition: all .4s ease-out 0s;-moz-transition: all .4s ease-out 0s;-webkit-transition: all .4s ease-out 0s;transform-origin: center}
+.user_info,.user_info .col-mar{position: relative;z-index: 1;zoom: 1}
+.user_coll_bottom .iconfont{width: 3.7rem;text-align: center;font-size: 1.4rem;float: left}
+.user_coll_bottom .iconfont:before{content: "\e65c";color: #aaa}
+.user_coll_bottom input{display: none}
+.user_coll_bottom input[type=checkbox]:checked+.iconfont:before{content: "\e716";color: #FC3F78}
+.user_coll_bottom .btn{height: 3.5rem;padding: 0;border-radius: 0;-moz-border-radius: 0;-webkit-border-radius: 0;-o-border-radius: 0;-ms-border-radius: 0}
+.user_coll_bottom.active~.layout{padding-bottom: 3.5rem}
+.user_coll_bottom.active{-webkit-transform: translateY(0) translateX(0);transform: translateY(0) translateX(0)}
+.user_coll_def{text-align: center;height: 100vh;background-color: #fff}
+.user_coll_def p.img{background: url(../images/user_sc.svg) center bottom no-repeat;width: 100%;height: 35vh;margin-bottom: 3rem}
+.user_coll_def .text{font-size: 1.1rem;line-height: 2.5rem;padding-bottom: 1rem}
+.user_coll_def .text .msg{color: #999}
+.user_info div.info,.user_info div.info .name.off *{color: #fff}
+.user_coll_def .but a.btn{border-radius: 5rem;-moz-border-radius: 5rem;-webkit-border-radius: 5rem;-o-border-radius: 5rem;-ms-border-radius: 5rem;padding: .6rem 4rem;box-shadow: 0 2px 6px 0 rgba(255,135,135,.5);background: -moz-linear-gradient(left,#FF5E90 0,#FF927C 100%);background: -webkit-gradient(linear,left top,left right,color-stop(0,#FF5E90),color-stop(100%,#FF927C));background: -webkit-linear-gradient(left,#FF5E90 0,#FF927C 100%);background: -o-linear-gradient(left,#FF5E90 0,#FF927C 100%);background: -ms-linear-gradient(left,#FF5E90 0,#FF927C 100%);background: linear-gradient(to left,#FF5E90 0,#FF927C 100%)}
+.user_info{background: linear-gradient(-90deg,#fa4dbe,#fbaa58);height: 48vw;max-height: 22rem;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;background-size: 100% auto;overflow: hidden}
+.user_info .col-mar{padding: 13% 0}
+.user_info .img{float: left;width: 24%;min-width: 5rem;margin-right: 1rem}
+.user_info .img img{width: 100%;display: block;border-radius: 200px;-moz-border-radius: 200px;-webkit-border-radius: 200px;-o-border-radius: 200px;-ms-border-radius: 200px;box-shadow: 0 0 0 4px rgba(255,255,255,.3)}
+.user_info div.info .name{font-size: 1.3rem;padding-top: 3%;padding-bottom: .5rem}
+.user_info div.info .name.off{padding-top: 8%}
+.user_info div.info .num{background: #000;border-radius: 3rem;-moz-border-radius: 3rem;-webkit-border-radius: 3rem;-o-border-radius: 3rem;-ms-border-radius: 3rem;color: #FCD5AE;padding-right: 15px;display: inline-block;line-height: 2rem}
+.user_info div.info .num i.iconfont{border: 2px solid #000;height: 1.8rem;width: 1.8rem;line-height: 1.8rem;text-align: center;border-radius: 3rem;-moz-border-radius: 3rem;-webkit-border-radius: 3rem;-o-border-radius: 3rem;-ms-border-radius: 3rem;margin-right: 5px;float: left;background: #e49e63}
+.user_info .setup{position: absolute;zoom: 1;right: 1rem;top: 1rem;z-index: 10;color: #fff}
+@media only screen and (max-width:350px){.user_info div.info .name{padding-top: 2%}}
+.user_info canvas{height: 140%;width: 150%;position: absolute;zoom: 1;left: -50%;top: 10%;z-index: 0}
+.user_index_tab{position: relative;z-index: 1;zoom: 1;top: -.7rem;text-align: center;overflow: hidden;background: #fff;box-shadow: 0 6px 4px 0 rgba(255,99,132,.04);border-radius: 10px}
+.user_index_tab .iconfont{display: block;min-width: 50px;line-height: 50px}
+.user_index_tab a{display: block;padding-bottom: 10px}
+.user_index_tab>div{position: relative;z-index: 1;zoom: 1;padding: 1rem 0}
+.user_index_tab>div:nth-child(1):before{content: "";height: 80%;right: 0;position: absolute;z-index: 1;zoom: 1;top: 10%;border-right: solid 1px #eee;width: 1px}
+.user_index_tab>div:active{background: #fafafa}
+.user_bottom_btn{position: fixed;zoom: 1;bottom: 0;left: 0;z-index: 10;width: 100%;padding-bottom: 1rem}
+.toTop:before {font-family: iconfont!important;}
+@font-face{font-family:iconfont;src:url(../images/iconfont.eot);src:url(../images/iconfont.eot#iefix) format('embedded-opentype'),url(data:application/x-font-woff;charset=utf-8;base64,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) format('woff'),url(../images/iconfont.ttf) format('truetype'),url(../images/iconfont.svg#iconfont) format('svg')}
+.toTop,.toTop:before{width: 35px;height: 35px}
+.toTop{background: rgba(51,51,51,.8);display: none;overflow: hidden;line-height: 35px;border-radius: 35px;-moz-border-radius: 35px;-webkit-border-radius: 35px;-o-border-radius: 35px;-ms-border-radius: 35px;text-align: center;position: fixed;color: #fff;z-index: 100;right: 20px;bottom: 25px}
+.toTop:before{display: block;content: "\e764"}

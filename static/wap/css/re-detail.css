@@ -1,0 +1,71 @@
+#hotwords-2014{width:462px;height:20px;line-height:20px;overflow:hidden;margin:0 auto}
+#hotwords-2014 a{float:left;white-space:nowrap;margin-right:10px}
+.findgoods_bg{height:208px}
+.findgoods_bg_wrap{width:100%;height:346px;position:absolute}
+.findgoods_bg_wrap h1{margin-left:-9999px}
+.o2_wide .findgoods_bg_wrap{min-width:100%}
+@font-face{font-family:fzzxh;src:url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh.eot);src:url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh.eot#iefix) format("embedded-opentype"),url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh.woff) format("woff"),url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh.ttf) format("truetype"),url(//misc.360buyimg.com/mtd/pc/index/home/images/fzzxh.svg) format("svg")}
+.findgoods_content{position:relative;font-family:Microsoft YaHei}
+.findgoods_content_nav{margin-bottom:22px;font-size:12px;line-height:20px}
+.findgoods_tolist{color:#666}
+.findgoods_todetail{color:#4797a0}
+.findgoods_content_wrap{float:left;width:100%;background-color:#fff;    padding-bottom: 20px;}
+.findgoods_content_pic{float:left;height:0;width:100%;border:0px solid #e7e7e7;padding-bottom: 151%;}
+.findgoods_content_pic_big{width:100%;height:0;border-bottom:1px solid #e7e7e7;padding-bottom: 100%;display: inline-grid;}
+.findgoods_content_pic_big img{width:100%;height:100%}
+.findgoods_content_pic_small{position:relative;height: 0;width: 100%;padding-bottom: 50%;}
+.findgoods_content_pic_small img{float:left;height:auto;width:100%}
+.findgoods_content_pic_small .findgoods_content_ps_two{width:100%}
+.findgoods_content_pic_small i{position:absolute;top:0;left:174px;width:1px;height:173px;background-color:#e7e7e7}
+.o2_wide .findgoods_content_pic{width:100%}
+.findgoods_content_detail{float:left;height:100%;width:100%}
+.findgoods_content_wrap h3{margin: 22px 15px 20px 15px;font-size:20px;font-weight:600;height:40px;line-height:40px;color:#3da3a2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.findgoods_content_detail_desc{position:relative;width:100%;overflow:hidden}
+.findgoods_content_dd_avator{margin: 0 auto;width:116px;height:85px;text-align:center;overflow:hidden}
+.findgoods_content_dd_avator img{width:55px;height:55px;border:1px solid #3aa7a2;border-radius:28px}
+.findgoods_content_dd_avator p{width:100%;height:16px;line-height:16px;margin-top:10px;color:#333;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.findgoods_content_dd_cont{float: left;position: relative;width: 96%; /* height: 85px; */padding: 20px 15px;margin-left: 2%;margin-right: 0;margin-top: 10px;background-color: #f6f6f6;box-sizing: border-box;}
+.findgoods_content_dd_cont div{width:100%;height:100%;margin-top:0;margin-left:0;font-size:18px;line-height:30px;color:#666;text-align:left;background-color:#f6f6f6}
+.findgoods_content_dd_angle{position:absolute;top:84px;left: 50%;margin-left: -12px;width:0;height:0;border-right: 12px solid transparent;border-left: 12px solid transparent;border-bottom: 12px solid #f6f6f6;}
+.findgoods_content_detail_price{margin-top: 20px;margin-left: 2%;height: 60px;width: 96%;background:url(//static.360buyimg.com/mtd/pc/findgoods/3.0.1/home/images/findgoods_btn_bg.png) 0 0 no-repeat;background-size:100% 100%}
+.findgoods_content_detail_price.fixed{position: fixed;bottom: 0;z-index: 999999;background-color: #fff;}
+.findgoods_content_dp_num{float:left;width:50%;height:60px;line-height:60px;text-align:center;vertical-align:middle;color:#666;font-size:18px}
+.findgoods_content_dp_num i{color:#333}
+.findgoods_content_dp_num span.fc_dn_price{color:#333;font-size:26px;font-weight:700}
+.findgoods_content_dp_num span.fc_dn_bit{color:#3da3a2}
+.findgoods_content_dp_href{float:left;width:50%;height:60px;line-height:60px;text-align:center}
+.findgoods_content_dp_href a{display:block;width:100%;height:100%;color:#fff;font-size:24px}
+.o2_wide .findgoods_content_detail{width:839px}
+.o2_wide .findgoods_content_detail_price{width:600px}
+.o2_wide .findgoods_content_dp_href,.o2_wide .findgoods_content_dp_num{width:300px}
+.o2_wide .findgoods_content_dd_cont{width:534px;min-height:85px;padding:50px 25px;margin-left:12px;margin-right:0;font-size:18px;line-height:30px}
+.findgoods_content_similar{width:100%;height:66px;overflow:hidden;line-height:66px;margin-top:20px;text-align:center}
+.findgoods_content_similar h3{display:inline;padding:0 50px;background-color:#f6f6f6;font-weight:400;font-size:26px;color:#333;font-family:fzzxh}
+.fg_tab{width:100%;margin-left:auto;margin-right:auto;padding-top:20px;min-height:360px;font-family:Microsoft YaHei;margin-bottom:100px;}
+.fg_tab_content{width:100%;margin-left:auto;margin-right:auto;overflow:hidden}
+.ft_content_item{min-height:300px;width:100%;overflow:hidden}
+.fg_indexlist_content_item{float:left;width:100%;height:auto;margin-right:10px;margin-bottom:10px;overflow:hidden}
+.fg_indexlist_content_img{float: left;width: 100%;padding-bottom: 100%;height: 0;background-color: #fff;display: inline-grid;}
+.fg_indexlist_content_img a{display:block;width:100%;height:100%}
+.fg_indexlist_content_img a:hover img{-webkit-transform:scale(1.03);transform:scale(1.03)}
+.fg_indexlist_content_img img{width:100%;height:100%;-webkit-transition:all .3s;transition:all .3s}
+.fg_indexlist_content_detail{position:relative;float:left;width:100%;height:100%;padding-left:20px;padding-right:20px;background-color:#e7e7e7;box-sizing: border-box;    padding-bottom: 50px;}
+.fg_indexlist_content_detail h3{position:relative;height:32px;margin-top:10px;margin-bottom:10px;font-size:18px;color:#4797a0;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fg_indexlist_content_detail h3:after{position:absolute;left:0;top:30px;content:"";height:2px;width:50px;background-color:#4797a0}
+.fg_indexlist_content_detail p{height:96px;line-height:24px;font-size:14px;color:#585858;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:4;line-clamp:4;-webkit-box-orient:vertical;}
+.fg_indexlist_content_detail div{position:absolute;right: 20px;bottom: 20px;height:26px;line-height:26px;padding-left:34px;font-size:12px;color:#4797a0}
+.fg_indexlist_content_detail a:hover p{color:#4797a0}
+.fg_indexlist_eyes{background:url(//static.360buyimg.com/mtd/pc/findgoods/3.0.1/home/images/findgoods_list_eyes.png) 0 3px no-repeat;background-size:30px 20px}
+.o2_wide .mod_w{width:100%}
+.mod_w{width:100%;margin-left:auto;margin-right:auto}
+.o2data-lazyload{background:#fff url(//misc.360buyimg.com/product/home/1.0.0/widget/floor/i/loading.gif) no-repeat 50%}
+.mod_container{background-color:#f6f6f6}
+.mod_container img{background:url(//misc.360buyimg.com/lib/skin/e/i/error-jd.gif) no-repeat 50% 50%}
+.mod_container a{-webkit-transition:color .25s ease;transition:color .25s ease;text-decoration:none}
+.mod_container a.imga{width: 50%;border-right: 1px solid #e7e7e7;float: left;box-sizing: border-box;border-bottom: 1px solid #fff;}
+.mod_container a.imgb{width: 50%;float: right;box-sizing: border-box;}	
+.findgoods_bg_wrap{background:url(//static.360buyimg.com/mtd/pc/findgoods/3.0.1/home/images/findgoods_list_bg2.png) center 0 no-repeat}
+.findgoods_content_similar{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAADCAMAAAB/P3U+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkJEODlEQkUxNzk2NjExRTY5OTdDQkQ2NDRFQjFCNUU1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkJEODlEQkUyNzk2NjExRTY5OTdDQkQ2NDRFQjFCNUU1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkQ4OURCREY3OTY2MTFFNjk5N0NCRDY0NEVCMUI1RTUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkQ4OURCRTA3OTY2MTFFNjk5N0NCRDY0NEVCMUI1RTUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7GI6sZAAAAD1BMVEXa2trExMTBwcHDw8P///8QPEuGAAAABXRSTlP/////APu2DlMAAAAZSURBVHjaYmBgZGCBAwZmJkYkHoocQIABAAogAIEAYnZPAAAAAElFTkSuQmCC") 50% repeat-x}
+.findgoods_list{position:relative;padding-top:0;min-height:300px}
+.findgoods_list_eyes{background:url(//static.360buyimg.com/mtd/pc/findgoods/3.0.1/home/images/findgoods_list_eyes.png) 0 3px no-repeat;background-size:30px 20px}
+.o2_retina .findgoods_list_eyes{background:url(//static.360buyimg.com/mtd/pc/findgoods/3.0.1/home/images/findgoods_list_eyes@2x.png) 0 3px no-repeat;background-size:30px 20px}

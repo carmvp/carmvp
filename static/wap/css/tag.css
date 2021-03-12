@@ -1,0 +1,38 @@
+#ju_tags_search {
+background-color: #FFF;
+margin-bottom: 10px;
+}
+#ju_tags_search ul {
+padding: 10px 5px;
+overflow: hidden;
+}
+#ju_tags_search ul li {
+float: left;
+background-color: #fff;
+text-align: left;
+font: 12px/24px '宋体';
+color: #999999;
+width: 50%;
+}
+#ju_tags_search ul li:hover{
+border: 0px solid #FF3366;
+background-color: #f1f1f1;
+}
+#ju_tags_search ul li:hover a{
+color:#FF3366;
+border: 1px solid #FF3366;
+}
+#ju_tags_search ul li a {
+color: #999999;
+display: block;
+float: left;
+padding: 5px;
+width:100%;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+border: 1px solid #f0f0f0;
+margin-top:1px;
+box-sizing: border-box;
+}
+#ju_tags_search ul li a:hover{text-decoration:none}
