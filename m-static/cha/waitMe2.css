@@ -1,25 +1,17 @@
-/*
-waitMe - 1.13 [05.10.15]
-Author: vadimsva
-Github: https://github.com/vadimsva/waitMe
-*/
-
 .waitMe_container .waitMe {position:absolute;top:0;left:0;right:0;bottom:0;z-index:9989;text-align:center}
 .waitMe_container .waitMe * {font-family:sans-serif;font-size:14px;font-weight:initial;font-style:initial;color:initial;text-decoration:initial;text-transform:initial;padding:initial;margin:initial}
 .waitMe_container .waitMe .waitMe_content {position:absolute;width:100%;top:20%;backface-visibility:hidden}
 .waitMe_container .waitMe .waitMe_progress {position:relative}
 .waitMe_container .waitMe .waitMe_progress > div {animation-fill-mode:both;display:inline-block;transform:translateZ(0);backface-visibility:hidden}
 .waitMe_container .waitMe .waitMe_text {position:relative;margin:20px 0 0}
-
-
 .chatxt{float: center;width: 400px;height: 18px;border: 1px solid #c8c8c8;
-border-radius: 20px;border-top-left-radius: 20px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 20px;background: url(../images/home_sprite2_1017.png) no-repeat -3px -265px;padding: 10px 0 10px 10px;box-shadow: 2px 2px 1px #f2f2f2 inset;z-index: 2;color: #323232;font: 12px/18px 'Hiragino Sans GB',"Simsun",Arial;outline: 0;}
+border-radius: 20px;border-top-left-radius: 20px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 20px;padding: 10px 0 10px 10px;box-shadow: 2px 2px 1px #f2f2f2 inset;z-index: 2;color: #323232;font: 12px/18px 'Hiragino Sans GB',"Simsun",Arial;outline: 0;}
 
 .wapchatxt{float: center;width: 95%;height: 18px;border: 1px solid #c8c8c8;
-border-radius: 20px;border-radius: 20px;background: url(../images/home_sprite2_1017.png) no-repeat -3px -265px;padding: 10px 0 10px 10px;box-shadow: 2px 2px 1px #f2f2f2 inset;z-index: 2;color: #323232;font: 12px/18px 'Hiragino Sans GB',"Simsun",Arial;outline: 0;}
+border-radius: 20px;border-radius: 20px;padding: 10px 0 10px 10px;box-shadow: 2px 2px 1px #f2f2f2 inset;z-index: 2;color: #323232;font: 12px/18px 'Hiragino Sans GB',"Simsun",Arial;outline: 0;}
 
 .pcchatxt{float: center;width: 600px;height: 18px;border: 1px solid #c8c8c8;
-border-radius: 20px;border-radius: 20px;background: url(../images/home_sprite2_1017.png) no-repeat -3px -265px;padding: 10px 0 10px 10px;box-shadow: 2px 2px 1px #f2f2f2 inset;z-index: 2;color: #323232;font: 12px/18px 'Hiragino Sans GB',"Simsun",Arial;outline: 0;}
+border-radius: 20px;border-radius: 20px;padding: 10px 0 10px 10px;box-shadow: 2px 2px 1px #f2f2f2 inset;z-index: 2;color: #323232;font: 12px/18px 'Hiragino Sans GB',"Simsun",Arial;outline: 0;}
 
 .wapchain1{ margin-top: 10px;height: 40px;font-size:16px;width: 150px;	background:#ff3100;	color:#fff;    border:1px solid #F23C77;	border-bottom-left-radius: 20px;border-top-left-radius: 20px; cursor: pointer; }
 .wapchain{ margin-top: 10px;height: 40px;font-size:16px;width: 150px;	background:#FF8C00;	color:#fff;    border:1px solid #FF8C00;	border-bottom-right-radius: 20px;border-top-right-radius: 20px; cursor: pointer; }
