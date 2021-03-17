@@ -17,7 +17,6 @@ border-radius: 20px;border-radius: 20px;padding: 10px 0 10px 10px;box-shadow: 2p
 .wapchain{ margin-top: 10px;height: 40px;font-size:16px;width: 150px;	background:#FF8C00;	color:#fff;    border:1px solid #FF8C00;	border-bottom-right-radius: 20px;border-top-right-radius: 20px; cursor: pointer; }
 .wapchainok{ margin-top: 10px;height: 40px;font-size:16px;width: 150px;	background:#ff3100;	color:#fff;    border:1px solid #FF8C00;	border-radius: 20px; cursor: pointer; }
 .containerBlock{height:120px;}
-/* bounce */
 .waitMe_container .waitMe_progress.bounce > div {width:20px;height:20px;border-radius:50%;animation:bounce 1.4s infinite ease-in-out}
 .waitMe_container .waitMe_progress.bounce .waitMe_progress_elem1 {animation-delay:-.32s}
 .waitMe_container .waitMe_progress.bounce .waitMe_progress_elem2 {animation-delay:-.16s}
