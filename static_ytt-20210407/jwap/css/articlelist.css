@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* old-inc.css */
+.center{
+	margin:0px auto;
+}
+.a1200{
+	width:1210px;	
+}
+.mt1{
+	margin-top:8px;
+}
+.clear{
+	overflow:hidden;
+}
+.pleft2 {
+width: 100%;
+float: left;
+overflow: hidden;
+}
+.index .latestnews {
+width: 100%;
+float: left;
+}
+dl.light {
+background: none;
+margin-bottom: 10px;
+}
+dl.tbox2 {
+float: left;
+width: 100%
+}
+.tbox {
+border: 1px solid #E0E0E0;
+overflow: hidden;
+}
+.light dt {
+height: 32px;
+line-height: 32px;
+border-bottom: 1px solid #E0E0E0;
+background: #7D7D7D;
+overflow: hidden;
+clear: both;
+}
+.latestnews dt.light strong {
+font-size: 12px;
+padding-left: 12px;
+padding-right: 8px;
+display: block;
+float: left;
+background: #FF2D5E;
+color: #ffffff;
+letter-spacing: 1px;
+border-right: 1px solid #FF2D5E;
+}
+.latestnews dt.light em.dot {
+width: 5px;
+height: 5px;
+border-radius: 5px;
+background: #fff;
+margin: 0px 3px;
+display: inline-block;
+position: relative;
+top: -1px;
+left:-5px
+}
+.latestnews dt.light i.sj-icon {
+width: 6px;
+height: 9px;
+display: inline-block;
+background: url(../images/sj-icon.gif) no-repeat;
+margin-top: 11px;
+}
+.latestnews dt.light .more{
+float: right;
+margin-right:10px;
+color:#fff;
+}
+.latestnews dt.light .more a{color:#fff;}
+.listmain dl dd.l {
+width: 100%;
+float: left;
+background:#fff;
+}
+.listmain .imglist{width:100%;height:100px}
+
+.light dd {
+overflow: hidden;
+}
+.listmain dl dd .item-top {
+width:100%;
+float: left;
+}
+.listmain dl dd .item-top a{
+	max-height:100px;
+	float: left;
+    width:100%;
+	overflow: hidden;
+}.ncinfos{width:204px}
+.listmain dl dd .onem{
+width:100%;
+float: left;
+height:auto;
+border-bottom: 1px solid #e3e2d5;
+height: 120px;
+padding: 10px 5px;
+box-sizing: border-box;
+}
+.listmain dl dd .item-top img {
+float: left;
+width: 100px;
+box-sizing: border-box;
+overflow: hidden;
+}
+.listmain dl dd .item-top strong {
+display: block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    width:100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.artimg{width:25%;float:left}
+.artinfo{width:74%;float:right}
+.article.tabs1 li p{font-size:12px}
+.better_change {
+    padding: 5px 15px;
+    float: left;
+    border-top: 1px solid #eee;
+    width: 100%;
+    box-sizing: border-box;
+}
+.better_change .better_show a{
+	height: 20px;
+    line-height: 20px;
+    color: #ff66cc;
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+
+.listmain dl dd .item-top p a{
+width:100%;	
+text-indent: 2em;
+color: #666666;
+line-height: 16px;
+overflow: hidden;
+height:80px;
+font-size:12px;
+}
+[data-dpr="1"] .listmain dl dd .item-top p {font-size:12px;}
+[data-dpr="2"] .listmain dl dd .item-top p  {font-size:24px;}
+[data-dpr="3"] .listmain dl dd .item-top p  {font-size:36px;}
+.listmain dl dd ul {
+clear: both;
+}
+.d1 {
+padding: 4px 0px;
+}
+.listmain ul li{
+color: #555;
+}
+.listmain ul li .listtxt{
+width:230px;
+display: block;
+overflow: hidden;
+float:left;
+}
+
+.listmain ul li a{
+width:230px;
+
+}
+.d1 li {
+height: 27px;
+line-height: 27px;
+overflow: hidden;
+width:48%
+}
+.listmain ul li a.f60 {
+color: #C33E00;
+}
+.d1 li span {
+color: #ABA9A2;
+margin-right: 5px;
+float: left;
+}
+.d1 li span {
+color: #999;
+padding-right: 8px;
+float: right;
+}

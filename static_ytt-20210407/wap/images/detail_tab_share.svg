@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>detail_tab_share</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-85.000000, -717.000000)">
+        <g id="Group-4" transform="translate(85.000000, 717.000000)" fill-rule="nonzero">
+            <g id="分享icon" transform="translate(4.000000, 4.000000)">
+                <path d="M7.46341463,10.097561 L8.75454064,10.097561 C8.75454064,10.097561 8.54750344,4.80300994 12.9323045,4.80300994 L14.5401562,4.80300994 L12.28697,6.98434023 L13.2613702,7.91578903 L17.1219512,4.17762754 L13.2727961,0.43902439 L12.2983959,1.38239785 L14.5392422,3.55268679 L12.9441874,3.55268679 C12.9318474,3.55268679 7.46341463,3.18699707 7.46341463,10.097561 Z" id="Shape" fill="#FC4D52"></path>
+                <path d="M16.7409,9.7569 C16.3449,13.67415 13.0356,16.73865 9.0297,16.73865 C4.74885,16.73865 1.2708,13.25385 1.2708,8.96445 C1.2708,5.0472 4.1607,1.827 7.9146,1.2861 L7.9146,0 C3.45375,0.5526 0,4.3497 0,8.964 C0,13.9626 4.041,18 9.018,18 C13.73085,18 17.60445,14.3712 18,9.7569 L16.7409,9.7569 Z" id="Shape" fill="#666666"></path>
+            </g>
+        </g>
+    </g>
+</svg>

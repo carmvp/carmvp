@@ -1,0 +1,50 @@
+@font-face{font-family:mui-act-font;src:url(https://at.alicdn.com/t/font_1439523408_3365195.eot);src:url(https://at.alicdn.com/t/font_1439523408_3365195.eot?#iefix) format('embedded-opentype'),url(https://at.alicdn.com/t/font_1439523408_3365195.woff) format('woff'),url(https://at.alicdn.com/t/font_1439523408_3365195.ttf) format('truetype')}
+.item-coupon {
+    width: 112px;
+    float: left;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-family: helvetica;
+}
+.mui-act-font {
+    display: inline-block;
+    -webkit-transform: scale(.8);
+    font-size: 11px;
+}
+.mui-act-font {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    -webkit-text-stroke-width: .2px;
+    font-family: mui-act-font!important;
+}
+.mui-act-item-couponColor {
+    color: #FF5363;
+    border: dashed 1px #FF5363;
+}
+					.mui-act-item-couponColor .quan {
+    border-right: dashed 1px #FF5363;
+}
+.itemde{margin:0 0 0 10px;width: 130px;}
+.itemde.item-coupon .quan {
+    width: 70px;
+    background: #ff5363;
+    color: #fff;
+    float: left;	
+}
+.fuli{margin:0 0 0 10px;color: #0099ee;}
+.fuli.item-coupon .quan {
+    width: 70px;
+    background: #0099ee;
+    color: #fff;
+    float: left;
+	border-right: dashed 1px #0099ee;
+}
+.fuli.mui-act-item-couponColor{border: dashed 1px #0099ee;}
+.yj{float: left;}.tcinfos{width:210px}
+.price-new{margin-left:5px;font-size: 18px!important;float: left;}
+.price-new .qh {font-size: 16px!important;}.ncinfos{width:204px}
+.item-good .list-price .f14 {font-size: 16px!important;}
+.list-price {height:30px!important;line-height: 30px!important; padding:0 5px!important;}
+.list-live{width:100%;height: 30px;float: left;margin: 10px 0;}
+.app-detail .linfuli {margin-left: 10px;border: 1px dashed #0099ee;float: left;padding: 2px 5px;color: #0099ee;font-size: 13px;height:20px;line-height:20px}

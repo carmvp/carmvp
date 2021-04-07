@@ -1,0 +1,189 @@
+@charset "utf-8";
+/** CSS Document 
+* Dec: mid-autumn style 
+* Date: 2015-04-1;
+* Author: 55885494@qq.com;
+**/
+.jiu-nav-main{ min-width:1200px;height:50px; background:#fff;box-shadow: 0 1px 1px rgba(212, 212, 212, 0.3);}
+.subNav{ position: relative;height:50px; margin:0 auto;min-width:1200px;}
+.subNav ul li{ display:block; float:left;margin-right:10px; display:inline; margin-top:15px;}
+.subNav ul li a { position:relative; height:22px; line-height: 20px; color:#666;padding: 0 10px; text-align: center; display: inline-block;  border-radius: 2px;}
+.subNav ul li a:hover{ text-decoration:underline; color:#666;}
+.subNav ul li a.active {color:#ff3366; background: #e2e2e2; text-decoration:none;}
+.subNav ul li a.green{ color:#ff3366;}
+/*分类导航*/
+.clothes-nav,.jujia-nav,.baby-nav,.other-nav{ width:100%; height:119px; background:#fff0f6;border-bottom:1px solid #f0e9ec;font-size:14px; overflow: hidden;min-width:1200px}
+.sub-nav{height:110px; margin:0 auto;padding:9px 20px 0 20px;}
+.sub-nav ul{width:760px; float:left;}
+.sub-nav ul li{float:left;margin-right:50px;font-weight:bold;}
+.w1200 .sub-nav{width:1160px; height:110px; margin:0 auto;padding:9px 20px 0 20px;}
+.w1200 .sub-nav ul{width:980px; float:left;}
+.w1200 .sub-nav ul li{float:left;margin-right:90px;font-weight:bold;}
+.sex-style span{display:block;height:75px;width:70px; background:url("../images/zhe_icons.png") no-repeat;}
+.sub-nav ul li.clothes-icon{width:180px;}
+.current-menu a:hover{text-decoration:none;}
+.w1200 .sub-nav ul li.clothes-icon{width:190px;}
+.clothes-nav .sub-nav ul li ul{float:right; width:90px;margin-top:20px;font-size:12px;margin-left: 0; }
+.clothes-nav .sub-nav ul li ul li{font-weight:normal; text-align:center;width:40px;margin:0 0 10px 0;padding:0;}
+.clothes-nav .sub-nav ul li.clothes-icon span{background-position:0 0;}
+.clothes-nav .sub-nav ul li.clothes-icon:hover span{background-position:0 -75px;}
+.clothes-nav .sub-nav ul li.shoes-icon span{background-position:-70px 0;}
+.clothes-nav .sub-nav ul li.shoes-icon:hover span{background-position:-70px -75px;}
+.clothes-nav .sub-nav ul li.bag-icon span{background-position:-140px 0;}
+.clothes-nav .sub-nav ul li.bag-icon:hover span{background-position:-140px -75px;}
+.clothes-nav .sub-nav ul li.accessories-icon span{background-position:-210px 0;}
+.clothes-nav .sub-nav ul li.accessories-icon:hover span{background-position:-210px -75px;}
+.clothes-nav .sub-nav ul li.old-icon span{background-position:-280px 0;}
+.clothes-nav .sub-nav ul li.old-icon:hover span{background-position:-280px -75px;}
+.sub-nav ul li ul li a:hover{text-decoration: underline;}
+.sub-nav a,.sub-nav a:hover{ color:#333333;}
+.clothes-nav .sub-nav ul li.clothes-icon .current-menu span{background-position:0 -150px;}
+.clothes-nav .sub-nav ul li.shoes-icon .current-menu span{background-position:-70px -150px;}
+.clothes-nav .sub-nav ul li.bag-icon .current-menu span{background-position:-140px -150px;}
+.clothes-nav .sub-nav ul li.accessories-icon .current-menu span{background-position:-210px -150px;}
+.clothes-nav .sub-nav ul li.old-icon .current-menu span{background-position:-280px -150px;}
+.sex-style{float:right; width:180px;margin-top:4px;}
+.man-style,.woman-style{width:70px;float:left;text-align:center}
+.man-style{margin-left:20px;}.ncinfos{width:204px}
+.woman-style{margin-left:20px;}
+.woman-style span{background-position:-1266px 0;height:70px;}
+.woman-style .current-menu span,.woman-style:hover .current-menu span{background-position:-1266px -140px;}
+.woman-style:hover span{background-position:-1266px -70px;height:70px;}
+.man-style span{background-position:-1336px 0;height:70px;}
+.man-style .current-menu span, .man-style:hover .current-menu span{background-position:-1336px -140px;}
+.man-style:hover span{background-position:-1336px -70px;height:70px;}
+.clothes-icon ul li,.clothes-icon ul li a{width: 40px;display: block;height: 20px;}
+.category-name{width:70px; text-align:center; display:block;height: 20px;line-height:20px;FONT-FAMILY: "宋体"; margin-top: 3px;font-size: 14px/26px;VERTICAL-ALIGN: middle; -moz-box-orient: vertical;}
+.current-menu .category-name,.c-tag{background: url(../images/c_tag.png) no-repeat;color: #fff}
+.clothes-nav ul li .category-name{background-position: -40px 0px;}
+.c-tag{background-position: 0px 0px;}
+.jujia-nav{background:#f8ffec;}
+.jujia-nav .sub-nav{background: url(../images/jiaju_bg_03.png) no-repeat center right;}
+.w1200 .jujia-nav ul li,.jujia-nav ul li{margin-right: 50px; width:80px;}
+.jujia-nav ul li span{ margin:0 auto;}
+.jujia-nav ul li.cloth-icon span{background-position:-630px 0;}
+.jujia-nav ul li.cloth-icon:hover span{background-position:-630px -75px;}
+.jujia-nav ul li.commodity-icon span{background-position:-700px 0;}
+.jujia-nav ul li.commodity-icon:hover span{background-position:-700px -75px;}
+.jujia-nav ul li.kitchen-icon span{background-position:-770px 0;}
+.jujia-nav ul li.kitchen-icon:hover span{background-position:-770px -75px;}
+.jujia-nav ul li.furniture-icon span{background-position:-840px 0;}
+.jujia-nav ul li.furniture-icon:hover span{background-position:-840px -75px;}
+.jujia-nav ul li.electric-icon span{background-position:-910px 0;}
+.jujia-nav ul li.electric-icon:hover span{background-position:-910px -75px;}
+.jujia-nav .sub-nav ul li.cloth-icon .current-menu span{background-position:-630px -150px;}
+.jujia-nav .sub-nav ul li.commodity-icon .current-menu span{background-position:-700px -150px;}
+.jujia-nav .sub-nav ul li.kitchen-icon .current-menu span{background-position:-770px -150px;}
+.jujia-nav .sub-nav ul li.furniture-icon .current-menu span{background-position:-840px -150px;}
+.jujia-nav .sub-nav ul li.electric-icon .current-menu span{background-position:-910px -150px;}
+.other-nav{background:#e2fbfd;}
+.other-nav .sub-nav{background: url(../images/other_bg.png) no-repeat center right;}
+.other-nav ul li{width:70px;}
+.other-nav ul li.digit_icon span{background-position:-980px 0;}
+.other-nav ul li.digit_icon:hover span{background-position:-980px -75px;}
+.other-nav ul li.food_icon span{background-position:-1050px 0;}
+.other-nav ul li.food_icon:hover span{background-position:-1050px -75px;}
+.other-nav ul li.cos_icon span{background-position:-1120px 0;}
+.other-nav ul li.cos_icon:hover span{background-position:-1120px -75px;}
+.other-nav ul li.sport_icon span{background-position:-1190px 0;}
+.other-nav ul li.sport_icon:hover span{background-position:-1190px -75px;}
+.other-nav ul li.sport_icon,.other-nav ul li.sport_icon span{width:76px;}
+.other-nav ul li.digit_icon .current-menu span{background-position:-980px -150px;}
+.other-nav ul li.food_icon .current-menu span{background-position:-1050px -150px;}
+.other-nav ul li.cos_icon  .current-menu span{background-position:-1120px -150px;}
+.other-nav ul li.sport_icon .current-menu span{background-position:-1190px -150px;}
+.other-nav ul li .category-name{background-position: -40px 0px;}
+.other-nav ul li.digit_icon span{margin: 0 auto;}
+.other-nav ul li.digit_icon .category-name{background-position: -110px 0px; width: 80px;}
+.w1200 .other-nav .sub-nav ul li,.other-nav .sub-nav ul li{margin-right: 60px;}
+.baby-nav{background:#fffaec;}
+.w1200 .baby-nav .sub-nav ul{width:540px;}
+.w1200 .baby-nav ul li{margin-right: 60px;}
+.baby-nav .sub-nav ul{width:460px;}
+.baby-nav ul li{margin-right: 40px;}
+.baby-nav ul li .category-name{background-position: -40px 0px;}
+.baby-nav ul li.study_icon .category-name,.baby-nav ul li.mental_icon .category-name, .jujia-nav ul li .category-name{background-position: -110px 0px; width: 80px;}
+.baby-nav ul li.clothes_icon, .baby-nav ul li.shoes_icon {width:70px;}
+.baby-nav ul li.study_icon, .baby-nav ul li.mental_icon {width:80px;}
+.baby-nav ul li.clothes_icon span{background-position:-350px 0;}
+.baby-nav ul li.clothes_icon:hover span{background-position:-350px -75px;}
+.baby-nav ul li.shoes_icon span{background-position:-420px 0px;}
+.baby-nav ul li.shoes_icon:hover span{background-position:-420px -75px;}
+.baby-nav ul li.study_icon span{background-position:-490px 0;margin:0 auto;}
+.baby-nav ul li.study_icon:hover span{background-position:-490px -75px;}
+.baby-nav ul li.mental_icon span{background-position:-560px 0;margin:0 auto;}
+.baby-nav ul li.mental_icon:hover span{background-position:-560px -75px;}
+.baby-nav .sub-nav ul li.clothes_icon .current-menu span{background-position:-350px -150px;}
+.baby-nav .sub-nav ul li.shoes_icon .current-menu span{background-position:-420px -150px;}
+.baby-nav .sub-nav ul li.study_icon .current-menu span{background-position:-490px -150px;}
+.baby-nav .sub-nav ul li.mental_icon .current-menu span{background-position:-560px -150px;}
+.baby-nav ul.age {float: right; width:360px; margin-top:4px;}
+.baby-nav ul.age li{margin-left: 20px;margin-right: 0;}
+.w1200 .baby-nav ul.age {float: right; width:400px;margin-top:4px;}
+.w1200 .baby-nav ul.age li{margin-left: 30px;margin-right: 0;}
+.baby-nav ul.age li span{height: 70px;}
+.baby-nav ul.age li.step1 span{background-position:-1406px 0px;}
+.baby-nav ul.age li.step1:hover span{background-position:-1406px -70px;}
+.baby-nav ul.age li.step2 span{background-position:-1476px 0px;}
+.baby-nav ul.age li.step2:hover span{background-position:-1476px -70px;}
+.baby-nav ul.age li.step3 span{background-position:-1546px 0px;}
+.baby-nav ul.age li.step3:hover span{background-position:-1546px -70px;}
+.baby-nav ul.age li.step4 span{background-position:-1616px 0px;}
+.baby-nav ul.age li.step4:hover span{background-position:-1616px -70px;}
+.baby-nav .sub-nav ul.age li.step1 .current-menu span, .baby-nav .sub-nav ul.age li.step1:hover .current-menu span{background-position:-1406px -140px;}
+.baby-nav .sub-nav  ul.age li.step2 .current-menu span, .baby-nav .sub-nav ul.age li.step2:hover .current-menu span{background-position:-1476px -140px;}
+.baby-nav .sub-nav ul.age li.step3 .current-menu span, .baby-nav .sub-nav ul.age li.step3:hover .current-menu span{background-position:-1546px -140px;}
+.baby-nav .sub-nav ul.age li.step4 .current-menu span, .baby-nav .sub-nav ul.age li.step4:hover .current-menu span{background-position:-1616px -140px;}
+.baby-nav ul.age li .category-name{ background: none; color: #333;}
+/*brand_show*/
+.brand-show{margin:20px auto; width:1200px;height:410px;}
+.brand-show .b-line{height:1px;background:#fff;overflow:hidden;position:absolute; bottom:0;width:180px;opacity:.3;filter:alpha(opacity=30);margin:39px 25px 40px;}
+.logo-mask{background:#fff; opacity:.4; filter:alpha(opacity=40);width:80px; height:40px; overflow:hidden;position:absolute; top:0; z-index:9999;}
+.w1200 .brand-show{width:1200px;height:410px;}
+.brand-show ul.brand-window{width:980px;float:left;}
+.brand-show ul.brand-window li{width:230px; height:400px; float:left; position:relative;margin-right:15px;}
+.brand-show ul.brand-window li img{width:230px; height:400px;}
+.brand-show ul.brand-window li.b-right{margin-right:0px; }
+.brand-shadow{position: absolute;bottom: 0;background: #000; opacity: 0.3;filter:alpha(opacity=30); width:230px;height: 80px;}
+.b-title{position: absolute;bottom: 0; padding:5px 25px 0 25px;text-align:center;color:#fff;;width:180px;height: 75px;font-family:"微软雅黑"; font-size:14px;}
+.b-title span{display: block; font-size: 20px; font-weight: bold;height:38px; line-height:32px;}
+.brand-show ul.brand-window li:hover .brand-shadow{opacity: .7;filter:alpha(opacity=70);}
+.brand-show ul.brand-window li:hover .b-title{color:#ffff66;}
+.brand-show ul.brand-window li:hover .b-line{opacity: .7;filter:alpha(opacity=70);}
+.brand-logo{width:220px;float:right;}
+.brand-logo ul{clear: both; overflow: hidden;padding-right: 20px;padding-left:10px;margin-left:10px; background-color:#ffffff;}
+.brand-logo ul li{width: 80px; height: 40px;float: left;margin:14px 0 18px 10px; position:relative;}
+.brand-logo ul li img{width: 80px; height: 40px;}
+.brand-logo a:hover{color:#333;}
+.brand-show .brand-logo .brand_all{margin-left: 10px;background: #e2e2e2 url(../images/brand_logo.gif) no-repeat 143px 12px;height: 40px;line-height: 40px;padding-left: 50px;cursor: pointer;font-family:"微软雅黑"; font-size:14px;color:#333;}
+.baby-brand-show{width:1200px; margin: 20px auto; overflow: hidden; clear: both;}
+.w1200 .baby-brand-show{width:1200px;}
+.baby-brand-show ul.brand-window{width:840px;}
+.w1200 .baby-brand-show ul.brand-window{width:840px;}
+.baby-brand-show ul.brand-window{float:left;overflow:hidden;height:410px;}
+.baby-brand-show ul.brand-window li{width:198px; height:178px;border: 1px solid #fff; float:left; position:relative;margin:0 0 10px 10px;text-align: center; background-color: #fff;padding:20px 0 0 0;}
+.brand-show ul.brand-window a:hover{text-decoration:none;}
+.baby-brand-show ul.brand-window li img{width:160px; height:120px; margin:0 19px;transition:all 0.3s ease 0s}
+.baby-brand-show ul.brand-window li:hover img{margin:0 23px 0 15px;}
+.baby-brand-show ul.brand-window li:hover{border:1px solid #e2e2e2}
+.baby-brand-show .brand-logo{width:348px;float:left;}
+.w1200 .baby-brand-show .brand-logo{width:360px;float:left;}
+.baby-brand-show .brand-logo ul{clear: both; overflow: hidden;padding: 0;margin:0; }
+.baby-brand-show .brand-logo ul li{width: 80px; height: 40px;float: left;margin:15px 18px 19px 18px;}
+.w1200 .baby-brand-show .brand-logo ul li{width: 80px; height: 40px;float: left;margin:15px 20px 19px 20px;}
+.baby-brand-show .brand-logo .brand-all{width: 200px;background: #e2e2e2 url(../images/brand_logo.gif) no-repeat 222px 12px;height: 40px;line-height: 40px;padding: 0 20px 0 130px;cursor: pointer;font-family:"微软雅黑";font-size:14px; }
+.w1200 .baby-brand-show .brand-logo .brand-all{width: 210px;}
+.brand-line{height:29px; border-top:1px solid #f0f0f0;position: absolute; bottom:0;width:180px;margin:0 10px;padding-top: 10px;left:0;font-family:"微软雅黑";}
+.brand-line .s-title{position: absolute;top:-14px; left:0;padding: 0;height:20px;text-align: center;width: 180px;font-family:"微软雅黑";}
+.brand-line .s-title span{font-size: 16px;font-weight: bold;background-color: #fff;color: #333;padding:0 4px;}
+
+.main-gap.today div.last {width: 200px;position: absolute;right: 80px;top: 700px;*+top: 685px;_top: 705px;_right:100px;}
+.main-gap.today div.last a { float: left;display: block;*height: 1px; position: absolute; bottom: 38px; color: #59a5d8; font-size: 14px;}
+.goods-list.goods-today li{border-color: #eae5e1}
+.goods-list.goods-today li.last{ border:none; width:200px;}
+.goods-list.goods-today li.last a { text-decoration: underline ;display: block; position: absolute; bottom: 62px; color: #59a5d8; font-size: 14px;}
+
+
+
+
+

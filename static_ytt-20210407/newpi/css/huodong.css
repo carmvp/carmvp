@@ -1,0 +1,24 @@
+body{margin:0;padding:0;background:#f3f3f3;min-height:100%;position:relative}
+.clearfix:after{content:"";height:0;display:block;visibility:hidden;clear:both}
+#container{width:100%;margin:0 auto;}
+.dotdot{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical}
+.line1{-webkit-line-clamp:1}
+.clicky{cursor:pointer}
+.ncinfos{width:204px}
+a:hover{text-decoration: none;}
+.item-container{transition:all .3s}
+.item-container:hover{transform:translateY(-8px);box-shadow:0 2px 4px rgba(0,0,0,.3)}
+.list-container{width:1200px;margin:0 auto;min-height:400px;position:relative}
+.page-container{text-align:center;margin:0 0 20px}
+.item-container{float:left;margin-right:15px;margin-bottom:20px;}
+.item-container:nth-child(3n){margin-right:0}
+.topic-container{display:block;width:388px;height:198.72px;border: 1px solid #e8e8e8;box-sizing:border-box;}
+.topic-image{width:388px;height:158.7px}
+.topic-title{color:#222;font-size:14px;height:40px;margin:12px 10px 5px 12px}
+.topic-title p{line-height:20px;}
+.topic-period{color:#999;font-size:12px;line-height:17px;margin-right: 12px;text-align: right;}
+.chinese-tag{font-size:16px;margin-left:20px;line-height:58px}
+.chinese-tag a{color:#444}
+.chinese-tag a:hover{color:#406599}
+.chinese-tag a:active{color:#444}
+.chinese-tag span{color:#999}

@@ -1,0 +1,143 @@
+@charset "utf-8";
+.single_main {
+	width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.single_main ul {	
+    overflow: hidden;
+    margin-left: 4px;
+}
+.single_main ul li {    
+	width: 100%;
+    margin: 5px auto;
+    background: #fff;
+    height: 140px;
+    position: relative;
+	list-style: none;
+	float: left;
+    box-sizing: border-box;
+}
+.single_main li .goods_pic {
+    width: 140px;
+    height: 140px;
+    padding: 0;
+    overflow: hidden;
+	margin: 0;
+}
+.fl {
+    float: left;
+}
+
+
+.single_main li .goods_pic img {
+    width: 100%;
+}
+.single_main ul li img {
+    transition: transform .4s;
+    -moz-transition: transform .4s;
+    -webkit-transition: transform .4s;
+    -o-transition: transform .4s;
+}
+.single_main li .goods_info {
+    width: 195px;
+    text-align: right;
+}
+.fr {
+    float: right;
+}
+.single_main li .goods_info .goods_sell {
+    color: #F34E15;    
+    font-size: 15px;    
+}
+.single_main li .goods_info .goods_tit {
+    display: block;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.single_main li .goods_info .goods_tit a {
+    color: #333;
+    font-size:15px;    
+    max-width: 100%;
+    max-height: 28px;
+    line-height: 30px;
+    overflow: hidden;
+    float: right;    
+    border-bottom: 1px solid #333;
+}
+a {
+    text-decoration: none;
+}
+.ncinfos{width:204px}
+.single_main li .goods_info .goods_desc {
+    clear: both;
+    color: #999;
+    text-indent: 4px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.single_main li .goods_info .goods_price {
+    color: #F34E15;
+    font-size:14px;
+    font-weight: 700;
+    line-height:30px;
+    height: 34px;
+    margin-bottom: 5px;
+}
+.single_main li .goods_info .goods_price b {
+    font-size:13px;
+    position: relative;
+    top: 3px;
+    letter-spacing: 2px;
+    font-family: Impact;
+	font-weight: 400;
+	color:#F34E15
+}
+.single_main li .goods_info .goods_price b i {
+    font-family: "Microsoft Yahei";
+    font-weight: 400;
+	font-style: normal;
+	color: #F34E15;
+}
+.single_main li .goods_info .goods_price b strong {
+    font-size: 30px;
+	font-family: Impact;
+	color: #F34E15;
+}
+.tcinfos{width:210px}
+.single_main li .goods_info .go_buy a {
+    background: #F34E15;
+    color: #fff;    
+    height: 20px;
+    float: right;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing:1px;
+    position: relative;
+    line-height: 20px;
+	padding: 0 10px;
+	width: 100%;
+    box-sizing: border-box;
+}
+i {
+    font-style: normal;
+	color:#fff;	
+}
+.single_main li .goods_info .go_buy a:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 12px;
+    border-left: 5px solid #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    top: 5px;
+}
+.single_main li .goods_info .go_buy a  span{
+    color:#fff;		
+}

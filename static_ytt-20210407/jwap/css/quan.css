@@ -1,0 +1,151 @@
+@charset "utf-8";
+.item-detail-view {
+overflow: hidden;
+}
+.item-detail-view .item-wrap {
+height: 100%;
+}
+.item-wrap .item-detail {
+border-bottom: 1px dashed #c7c7c7;
+padding: .2rem;
+overflow: hidden;
+width: 100%;
+box-sizing: border-box;
+display: block;
+}
+.item-wrap .item-detail .pic {
+width: 5.1rem;
+height:5.1rem;
+float: left;
+border: 1px solid #c6c6c6;
+}
+.item-wrap .item-detail .pic img {
+width: 5.1rem;
+height:5.1rem;
+}
+.item-wrap .item-detail .item-content {
+width: 8.8rem;
+height: 5.15rem;
+float: left;
+padding: 0 .2rem;
+position: absolute;
+right: .2rem;
+}
+
+.item-content .title {
+overflow: hidden;
+font-size: .5rem;
+line-height: 1rem;
+height: 1rem;
+}
+
+.item-content .title span {
+	overflow: hidden;
+	width:100%;
+	color: #333;
+	float:left;
+	height: 1rem;
+}
+
+.item-content .tags {
+height: 1rem;
+overflow: hidden;
+line-height: 1rem;
+padding-top: .2rem;
+}
+.ncinfos{width:204px}
+.tags .tag {
+	float: left;
+	margin: .14rem .2rem;
+}
+
+.tmallTag {
+width: .65rem;
+height: .63rem;
+}
+.tmallTag  img{
+width: 100%;	
+}
+.byTag {
+background: 0 0;
+font-size: .4rem;
+line-height: .5rem;
+height: .5rem;
+padding: .1rem;
+border: 1px solid #f40;
+color: #f40
+}
+
+.tags .dealNum {
+	float: right;
+	color: #9b9b9b;	
+	position: relative;
+	font-size: .4rem;
+	line-height: 1.1rem;
+}
+
+.item-content .real {
+	font-weight: 500
+}
+
+.item-content .price-origin {
+height: 1rem;
+line-height: 1rem;
+font-size: .4rem;
+position: absolute;
+margin: .3rem 0;
+width:100%
+}
+
+.price-origin .price {
+	font-size: .55rem;
+	font-weight: 800
+}
+
+.price-origin .origin {
+color: #9b9b9b;
+font-size: .4rem;
+position: absolute;
+right: .5rem;
+}
+
+.price-origin .quan {
+	color: #FF4400;
+	font-size: .5rem;
+	float:left
+}
+
+.price-origin .origin-discount {
+	font-size: 16px;
+	color: #f40
+}
+
+.item-content .discount {
+height: 2rem;
+line-height: 2.5rem;
+font-size: .6rem;
+margin: .1rem 0 0;
+position: absolute;
+bottom: 0;
+}
+
+.item-content .discount .img-tag {
+	vertical-align: middle;	
+	height: 1.3rem;
+}
+
+.item-content .discount .sale {
+font-size: 1rem;
+vertical-align: middle;
+color: #f40;
+margin-left: .2rem;
+}
+
+.item-content .discount .sale em {
+	font-size: .6rem;
+	font-style: normal;
+	display: inline-block;
+	width: .65rem;
+	text-align: center;
+	font-family: 'helvetica neue',tahoma,'hiragino sans gb',stheiti,'wenquanyi micro hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;
+}

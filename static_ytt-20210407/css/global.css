@@ -1,0 +1,58 @@
+@charset "utf-8";
+html,body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif,\5b8b\4f53;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var,i{font-style:normal;}
+ul,ol,dl,li{list-style:none;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+a{color:#5e5e5e;text-decoration:none;}
+a:hover{color:#f8285c;text-decoration:underline;}
+:focus{outline: 0 none;}
+body {background:#f6f6f6;color:#5E5E5E;height:100%;}
+textarea,input[type="text"],input[type="password"]{ background:#FFF; font-family:'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;}
+:-moz-placeholder, ::-webkit-input-placeholder { color:#999999; }
+.placeholder { color:#999999; }
+.main{margin:0px auto;}
+.w1200.main{width:414px;}
+html,html body{_background:url(about:blank) #EFEFEF;_background-attachment:fixed;}
+.bm-form { border-bottom: dashed 1px #ddd; background-color:#fff; padding:30px 0; }
+.bm-form .pic { width: 340px; position:absolute; right:80px; top:250px; overflow:hidden }
+.bm-form .pic .tip { margin-top: 10px; text-align: center; width: 340px; display: block; }
+.bm-form .desc { width: 550px; position:absolute; right:10px; top:-20px;  }
+.bm-form .desc .tip { margin-top:0px; text-align: center; width:550px; display: block; font-weight:bold;font-size:18px;color:#FF0000}
+.bm-form table { width:100%; border-collapse:collapsed;margin-top:20px }
+.bm-form th, .bm-form td { padding-top:8px; padding-bottom:8px; vertical-align:top; font-size:14px ;box-sizing: border-box;}
+.bm-form th { padding-right:5px; text-align:right; line-height:34px; font-weight:normal; width:20%}
+.bm-form td { padding-right:30px; line-height:32px;width:80% }
+.bm-form td input, .bm-form td a, .bm-form td img { vertical-align:middle; margin-right:5px; }
+.form-int, .form-sel, .form-textarea, .form-int-long, .form-int-short, .form-int-extrashort { width:240px; padding:8px; margin-right:5px; border-top: #ccc solid 1px; border-left: #ccc solid 1px; border-right: #ddd solid 1px; border-bottom: #ddd solid 1px; color:#666; font-size:14px; overflow:hidden;float:left }
+.bm-form td label { margin-right:20px; font-size:14px; color:#666; line-height:36px; }
+.bm-form td label input { margin-top:-3px; }
+.tip{font-size:12px;color:#ff0000}
+.bm-form .form-int { width:380px; }
+.ncinfos{width:204px}
+.bm-form .form-sel { width:220px; }
+.bm-form .form-textarea { width:100%; height:100px; color:#666;float:left }
+.bm-form .form-int-long { width:100%;float:left}
+.bm-form .form-int-short { width:200px ;}
+.bm-form .form-int-extrashort { width:100% }
+.bm-form .form-text { color:#999 }
+.bm-form .bcf { background: #f4f4f4; color:#999 }
+.bm-form .form-tip, .form-tip-hasborder { margin-top:10px; font-size:12px; line-height:1.8em;float: left; }
+.bm-form .form-tip-hasborder { width:660px; border:solid 1px #fc9; background-color:#ffc; padding:10px 12px }
+.bm-form .form-btn { padding:20px 0 }
+.bm-form .form-btn .btn { width: 145px; height:35px; line-height:35px; text-align: center; display: block; color: #fff; font-size:14px; background:#328BEA; border:none; cursor:pointer ;margin:0 auto;border-radius: 5px;}
+.bm-form .form-btn .btn:hover { text-decoration: none;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8; }
+h1.title{text-align: center;font-size: 16px;font-family: serif;border-bottom: 2px solid #328BEA;padding-bottom: 20px;height: 50px;line-height: 50px;}
+.main.sh{background-color: #fff;margin-top: 20px;border-bottom: dashed 1px #ddd;}
+.main.sh ul{padding: 10px 20px;}
+.main.sh ul li{line-height:22px;font-size: 13px;    margin-bottom: 10px;}
+.q-dialog{ width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 100001; display: none;}
+.q-dialog .q-dialog-bg{ width: 100%; height: 100%; background: rgba(0, 0, 0, .5);}
+.q-dialog .q-dialog-bd{ width: 400px; height: 70px; padding-top: 30px; background: #f0f0f0; border: 1px #d7d7d7 solid; border-radius: 3px; position: absolute; top: 50%; left: 50%; margin: -50px 0 0 -200px;}
+.q-dialog span{ width: 30px; height: 30px; line-height: 30px; text-align: center;  font-size: 26px; color: #666; position: absolute; top: 0; right: 0; cursor: pointer;}
+.q-dialog span:hover{ color: #404040;}
+.q-dialog .q-dialog-bd p{ line-height: 3px; font-size: 14px; color: #dc2727; text-align: center;}
+.q-dialog .q-dialog-bd p img{ vertical-align: middle; margin-right: 5px;}

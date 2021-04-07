@@ -1,0 +1,27 @@
+@charset "utf-8";
+.quan_l{overflow:hidden;}
+.quan_goods {width: 583px;border: solid #E0E0E0 1px;margin-top: 30px;}
+.quan_goods:hover{ border:solid #e81a62 1px;}
+.quan_goods a.picurl{float:left; width:270px;}
+.quan_goods img.quanpic{width:266px;height:266px;border:0px;}
+.quan_goods .conts{float:right; width:300px; margin-left:5px;margin-right:5px; font-family:微软雅黑;}
+.quan_goods .conts .qtitle{line-height:26px; font-size:16px; color:#616161; margin-top:10px;height: 52px;overflow: hidden;}
+.quan_goods .conts .qprice{margin-top:10px; clear:both;font-family:'微软雅黑'; overflow:hidden; font-size:14px; color:#FB82A4;line-height: 20px;}
+.quan_goods .conts .qprice .qico{margin-top:2px;float: left;margin-right: 5px;background: url(../images/quanico.png) no-repeat;width:20px;height:20px}
+.quan_goods .conts .qprice .nbu{float:left; margin-top:1px;}
+.quan_goods .conts .qprice .qpc{font-size:16px; color:#F3658D; font-weight:bold;font-family: Arial, Helvetica, sans-serif;}
+.quan_goods .conts .qprice .etime{font-size:14px;font-family: Arial, Helvetica, sans-serif;font-weight: normal;}
+.quan_goods .conts .qnum{margin-top:10px; clear:both;font-family:'宋体';; overflow:hidden; font-size:12px; color:#797979;}
+.quan_goods .conts .qnum .lnum{float:left; margin-top:1px;}.ncinfos{width:204px}
+.quan_goods .conts .qnum .lnum .snum{font-size:14px; color:#FB82A4;font-family: Arial, Helvetica, sans-serif;font-weight: normal;}
+.quan_goods .conts .qnum .lnum .ylnum{font-size:14px;font-family: Arial, Helvetica, sans-serif;font-weight: normal;}
+.quan_goods .conts .quanprice{margin-top:5px;overflow:hidden;}
+.quan_goods .conts .quanprice .xiad{font-size:15px; color:#FFD9EC; margin-top:7px; background:#ea2a60; width:296px; height:50px; line-height:50px;}
+.quan_goods .conts .quanprice .xiad .yia{color:#FFFFFF; font-size:18px;}
+.quan_goods .conts .quanprice .xiad .qhj{font-size:28px; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;}
+.quan_goods .conts .quanprice .xiad .zsj{font-size:16px; font-family:Arial;}
+.quan_goods .conts .quanbuy {margin-top:25px;overflow:hidden; font-size:14px;}
+.quan_goods .conts .quanbuy .gmlc{float:left; margin-top:6px; color:#999999;}
+.quan_goods .conts .quanbuy .goico{float:left; margin-top:6px; color:#999999; font-family:'宋体'; font-size:18px; font-weight:bold;}
+.quan_goods .conts .quanbuy a.quan_bt {float: left;padding: 6px;border-radius: 7px;border: dotted #F72121 1px;color: #EC3315;text-decoration: none;cursor: pointer;}
+.quan_goods .conts .quanbuy a.quan_bt:hover{ background:#FACB12; color:#ea2a60;}

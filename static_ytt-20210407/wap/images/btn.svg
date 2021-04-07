@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="26px" viewBox="0 0 56 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="每日半价-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-309.000000, -347.000000)">
+        <g id="Group-5" transform="translate(309.000000, 347.000000)">
+            <g id="Group-3">
+                <path d="M2,0 L54,0 C55.1045695,-4.1271253e-15 56,0.8954305 56,2 L56,24 C56,25.1045695 55.1045695,26 54,26 L2,26 C0.8954305,26 1.3527075e-16,25.1045695 0,24 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Combined-Shape" fill="#FE3A60"></path>
+                <text id="GO" font-family="PingFangSC-Medium, PingFang SC" font-size="13" font-weight="400" fill="#FFFFFF">
+                    <tspan x="14.0745" y="18">GO</tspan>
+                </text>
+                <path d="M39.2857143,13.5 L35.4285714,9.375 C35.1873674,9.11704574 35.1873674,8.71628759 35.4285714,8.45833333 L35.4285714,8.45833333 C35.6498952,8.22163987 36.0211915,8.20918026 36.257885,8.43050402 C36.26747,8.43946665 36.2767517,8.4487483 36.2857143,8.45833333 L41,13.5 L36.2857143,18.5416667 C36.0643905,18.7783601 35.6930942,18.7908197 35.4564007,18.569496 C35.4468157,18.5605334 35.4375341,18.5512517 35.4285714,18.5416667 L35.4285714,18.5416667 C35.1873674,18.2837124 35.1873674,17.8829543 35.4285714,17.625 L39.2857143,13.5 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

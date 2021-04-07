@@ -1,0 +1,19 @@
+.footer{position: relative;height:195px;background-color: #434446;}
+.footer .footer-top{height:155px;width: 1200px;margin: 0 auto;}
+.footer .footer-top .yl{float: left;width: 550px;margin: 35px 0 30px 70px;border-left: 1px solid #7B7B7D}
+.footer .footer-top .yl .head{font-size: 12px;color: #bfbfbf;padding-left: 10px}
+.footer .footer-top .yl .yl-links{padding-left: 10px}.ncinfos{width:204px}
+.footer .footer-top .yl .yl-links a{display: inline-block;height: 14px;line-height: 14px;font-size: 12px;color: #999;margin: 12px 8px 0 0}
+.footer .footer-top .logo-slogan{float: left;width: auto;height: 90px;margin: 35px 70px 30px 0}
+.footer .footer-top .logo-slogan .qr-code{position: relative;float: left;width: 90px;height: 90px;margin-left: 12px;background-color: #fff;border-radius: 2px}
+.footer .footer-top .logo-slogan .qr-code img{width: 86px;height: 86px;margin: 2px}
+.footer .footer-top .logo-slogan .txt{height: 90px;float: left;padding-left: 20px;}
+.footer .footer-top .logo-slogan .txt .logo{height: 24px;color: #fff;font-size: 18px;font-weight: bold;font-family:"Microsoft YaHei UI","Microsoft YaHei";height: 24px}
+.footer .footer-top .logo-slogan .txt .logo img{float: right;width: 106px;height: 24px}
+.footer .footer-top .logo-slogan .txt .s1{font-size: 14px;color: #fff;line-height: 14px;padding-top: 10px;text-align: right}
+.footer .footer-top .logo-slogan .txt .s2{font-size: 12px;color: #fff;line-height: 12px;padding-top: 10px;text-align: right}
+.footer .footer-bootom{height: 40px;background-color: #38383A}
+.footer .footer-bootom p{font-size: 12px;color: #BFBFBF;text-align: center;line-height: 40px}
+.footer .footer-bootom p a{color: #BFBFBF;}
+.footer .wrapper{position: relative;width: 1100px;margin: 0 auto;overflow: hidden;}
+.footer .kefuqq img{position: relative;top: 5px;}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.app-detail .bottom_bar{display:flex;height:1.92rem;background:#fff;width: 100%}
+.app-detail .bottom_bar.homePage{position:fixed;left:0;bottom:0;z-index:999}
+.app-detail .bottom_bar .bottom_bar_fav,.app-detail .bottom_bar .bottom_bar_icon{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:2.25rem;text-align:center;border-top:1px solid #eee}
+.hairlines .app-detail .bottom_bar .bottom_bar_fav,.hairlines .app-detail .bottom_bar .bottom_bar_icon{border-top:.5px solid #eee}
+.app-detail .bottom_bar .bottom_bar_fav .text,.app-detail .bottom_bar .bottom_bar_icon .text{line-height:1}
+.app-detail .bottom_bar .bottom_bar_icon{border-right:1px solid #eee}
+.hairlines .app-detail .bottom_bar .bottom_bar_icon{border-right:.5px solid #eee}
+.app-detail .bottom_bar .icon{display:block;margin:0 auto .1rem;width: .826667rem;height: .826667rem;}
+.app-detail .bottom_bar .index .icon{background:url(../images/home.png) no-repeat;background-size:contain}.ncinfos{width:204px}
+.app-detail .bottom_bar .bottom_bar_fav .icon{background:url(../images/sc1.png) no-repeat;background-size:contain}
+.app-detail .bottom_bar .bottom_bar_fav .selected .icon{background:url(../images/sc2.png) no-repeat;background-size:contain}
+.app-detail .bottom_bar .acts{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border-top:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;background:#fff}
+.app-detail .bottom_bar .acts>div,.app-detail .sys_button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}
+.hairlines .app-detail .bottom_bar .acts{border-top:.5px solid #e7e7e7;border-bottom:.5px solid #e7e7e7}
+.app-detail .bottom_bar .acts,.app-detail .bottom_bar .acts p{color:#666;font-size:.32rem}
+.app-detail .bottom_bar .acts a{padding:.32rem 0;width:100%;text-align:center}
+.app-detail .bottom_bar .acts>div{width:1.28rem;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;border-right:1px solid #e7e7e7;line-height:1}
+.hairlines .app-detail .bottom_bar .acts>div{border-right:.5px solid #e7e7e7}
+.app-detail .bottom_bar .acts>div .icon{display:block;margin:0 auto .1rem;width:.426667rem;height:.426667rem}
+.app-detail .sys_button{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;padding:.32rem}
+.app-detail .sys_button p{border:1px solid #ff5000;color:#ff5000;padding:.08rem .32rem;border-radius:.106667rem;margin:0 .32rem}
+.hairlines .app-detail .sys_button p{border:.5px solid #ff5000}
+.app-detail .sys_button.buy,.app-detail .sys_button.cart{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;color:#fff;font-size:.426667rem}
+.app-detail .sys_button.buy p,.app-detail .sys_button.cart p{border:none;padding:0;margin:0;color:#fff;font-size: .6rem;}
+.app-detail .sys_button.cart{background:#ff9402}
+.app-detail .sys_button.buy{background:#ff5000}
+.app-detail .sys_button.disabled{background:#ccc}
+.app-detail .bottom_placeholder{height:2.533333rem}
