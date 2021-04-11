@@ -211,11 +211,8 @@ ul {
 }
 
 .Weibo_icon_logo {
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background-position: -50px -25px;
-	box-shadow: 0 0 4px rgba(0,0,0,0.3);
+	width: 40px;
+	height: 35px;
 	vertical-align: -2px;
 }
 
